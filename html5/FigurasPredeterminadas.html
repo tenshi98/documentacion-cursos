@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predeterminado</title>
+</head>
+<body>
+    <canvas width="150" height="150" id="canvas"></canvas>
+
+    <script type="application/javascript">
+        var canvas = document.getElementById("canvas");
+        var ctx = canvas.getContext("2d");
+        ctx.fillRect(25,25,100,100); //Rectangulo relleno
+        ctx.clearRect(45,45,60,60); //Contorno Rectangular
+        ctx.strokeRect(50,50,50,50)
+    </script>
+</body>
+</html>

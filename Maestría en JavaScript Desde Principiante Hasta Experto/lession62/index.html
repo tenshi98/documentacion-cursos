@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejemplo dom con js</title>
+</head>
+<body>
+
+    
+
+    <p class="rojo">elemento aminupacion del dom 1 </p>
+    <p class="rojo">elemento aminupacion del dom 2 </p>
+    <p class="rojo">elemento aminupacion del dom 3 </p>
+
+    <script>
+
+        let parrafos= document.getElementsByClassName('rojo');
+
+        console.log(parrafos.length);
+
+        for(let i=0 ; i<parrafos.length; i++){
+
+            console.log(parrafos[i].innerHTML);
+
+
+        }
+
+
+
+
+    </script>
+
+ 
+
+
+   
+
+
+
+
+    
+</body>
+
+
+
+</html>

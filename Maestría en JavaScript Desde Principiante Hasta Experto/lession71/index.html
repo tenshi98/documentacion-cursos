@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onload="myFunction()">
+
+    <h1 id="titulo">manejo del dom</h1>
+
+    <br>
+
+    <div id="mostrar"></div>
+
+ 
+
+
+    <script>
+
+        function myFunction(){
+
+            alert("has entrado ala pagina");
+
+            let texto = "";
+
+
+            if(navigator.cookieEnabled){
+
+                texto= "las cookies estan activadas";
+
+
+            }{
+
+                texto = "las cookies estan desactivadas";
+
+
+            }
+
+
+            document.getElementById("mostrar").innerHTML= texto
+
+
+
+        }
+
+   
+
+
+
+    </script>
+
+
+
+    
+</body>
+</html>

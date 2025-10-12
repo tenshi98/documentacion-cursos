@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figura</title>
+</head>
+<body>
+    <canvas width="150" height="150" id="canvas"></canvas>
+
+    <script type="application/javascript">
+        var canvas = document.getElementById("canvas");
+        var ctx = canvas.getContext("2d");
+        ctx.fillStyle = "rgb(200,0,0)";
+        ctx.fillRect(10,10,100,100);
+        ctx.fillStyle = "rgba(0,0,200,0.5)";
+        ctx.fillRect(30,30,100,100);
+    </script>
+</body>
+</html>
