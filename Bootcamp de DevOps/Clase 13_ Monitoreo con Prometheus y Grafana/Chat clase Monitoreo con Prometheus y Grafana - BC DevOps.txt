@@ -1,0 +1,489 @@
+17:03:01 From Agus Vera to Everyone:
+	Buenaaas
+17:03:08 From Ignacio Plaza to Everyone:
+	buenas noches a todos
+17:03:20 From Renzo Franchetto to Everyone:
+	holooo
+17:03:27 From Cristian Arbelaez to Everyone:
+	Hola Jani, Alejandra
+17:03:30 From Edgar Priego to Everyone:
+	Hola
+17:03:32 From Edgar Priego to Everyone:
+	Saludos
+17:03:56 From Fernando Emanuel Lira to Everyone:
+	Buenas noches!!
+17:03:57 From Raúl Martínez to Everyone:
+	Buenas buenas 🐥
+17:04:22 From Marco Grijalva to Everyone:
+	Buenas, esta semana solo habrá clases hoy?
+17:04:32 From Vladimir Ramirez to Everyone:
+	buenas tardes/noches para todos
+17:05:43 From Renzo Franchetto to Everyone:
+	@Alejandra Bricio esa guitarra es electrica? : )
+17:05:50 From Cody to Everyone:
+	Replying to "Buenas, esta semana ..."
+	
+	Hola Marco, si, esta semana solo tenemos una clase 😄
+17:06:01 From Cristian Arbelaez to Everyone:
+	Reacted to "Hola Marco, si, esta..." with 👍
+17:06:28 From Fernando Emanuel Lira to Everyone:
+	Fue interesante la clase, pero como siempre hasta no poder implementarlo es facil XD
+17:06:47 From Felipe González S to Everyone:
+	Reacted to "Fue interesante la c..." with ➕
+17:06:51 From Agus Vera to Everyone:
+	Reacted to "Fue interesante la c..." with ➕
+17:07:04 From Fernando Emanuel Lira to Everyone:
+	Reacted to "Fue interesante la c..." with ➕
+17:07:25 From Fernando Emanuel Lira to Everyone:
+	remove ➕
+17:08:13 From Cristian Arbelaez to Everyone:
+	Zabbix puede entrar al stack de herramientas de monitoreo?
+17:09:42 From Fernando Emanuel Lira to Everyone:
+	Antes de empezar la clase, tienen algun tutorial para implementar entorno de kubernetes en aws utilizando la capa gratuita?17:12:43 From Fernando Emanuel Lira to Everyone:
+	Replying to "Zabbix puede entrar ..."
+	
+	a zabbix lo utilizo para monitoreo de equipos de red, router, switchs, aps y general algun dashboard que te interese ver, es muy completo y medio tedioso configurarlo de cero
+17:13:39 From Cristian Arbelaez to Everyone:
+	Reacted to "a zabbix lo utilizo ..." with 👍
+17:18:59 From Alejandra Bricio to Everyone:
+	https://prometheus.demo.do.prometheus.io/graph
+17:21:08 From Edgar Priego to Everyone:
+	una vez use Zabbix es algo parecido
+17:21:10 From Edgar Priego to Everyone:
+	?
+17:22:53 From Vladimir Ramirez to Everyone:
+	o a partir de cuando empezo el error
+17:23:28 From Carlos Rogel Hurtado to Everyone:
+	como sabemos que metricas necesitamos usar?
+17:24:14 From ivan almendra to Everyone:
+	para el frontend también?
+17:24:37 From Ricardo Arango to Everyone:
+	Instrumentar usándo opentelemetry?
+17:28:06 From Agustin to Everyone:
+	Por si falla
+17:28:11 From Agustin to Everyone:
+	O se pierde el servicio, etc.
+17:28:12 From Diego Vidal Caro to Everyone:
+	por costo
+17:28:24 From Richard Gil to Everyone:
+	pueden ser alteradas y por si fallan las metricas
+17:28:35 From Agustin to Everyone:
+	Es como el backup del servidor que esta en el mismo servidor
+17:28:42 From Anderson Llanos to Everyone:
+	También puede añadir un cuello de botella a la aplicación, no?
+17:28:48 From Andrés to Everyone:
+	Performance de la aplicación, tendría una tarea más
+17:28:55 From Luis Serret to Everyone:
+	Tambien podemos obtener alertas sobre uso de cpu, uso de memoria, reinicias de pods, etc y con eso podemos implementar el envío de alertas a algún canal de slack,
+17:30:07 From Felipe González S to Everyone:
+	Reacted to "Tambien podemos obte..." with ➕
+17:33:14 From Anderson Llanos to Everyone:
+	Se pueden crear métricas nuevas dependendiendo de los intereses del lado de operaciones?
+17:33:40 From Alejandro Serrano Nardelli to Everyone:
+	Por ejemplo, se podría asociar una métrica a un script para que se ejecute cuando caiga un determinado proceso de mi aplicación? Evitando así la perdida de funcionamiento de esta
+17:35:19 From Anderson Llanos to Everyone:
+	Sí, algo que no esté en la lista
+17:38:09 From Richard Gil to Everyone:
+	el valor de x en el tiempo que ocurre?
+17:38:49 From Richard Gil to Everyone:
+	osea en tiempo real
+17:41:04 From Felipe González S to Everyone:
+	Es posible/recomendado monitorear el comportamiento de una base de datos con Prometheus?
+17:43:26 From Ariana González Vidal to Everyone:
+	Esta metrica seria ademas como para detctar un ataque a la app ?
+17:44:58 From Alejandro Avila to Everyone:
+	Replying to "Esta metrica seria a..."
+	
+	Supongo que puede contar las solicitudes consecutivas para anticipar un DoS
+17:45:02 From Carlos Rogel Hurtado to Everyone:
+	cual seria la diferencia entre prometheus vs AWS cloudwatch o Azure Monitoring?
+17:45:02 From Ariana González Vidal to Everyone:
+	como DDoS attacks? O nada que ver.. jajaja
+17:49:18 From Ivan Garcia to Everyone:
+	es como splunk?
+17:50:16 From Ivan Garcia to Everyone:
+	para que sirven los traces?
+17:51:20 From Richard Gil to Everyone:
+	se puede con Prometheus tener las metrias de un API, es decir medir cuantas peticiones tiene mi API en particular?
+17:51:53 From Carlos Rogel Hurtado to Everyone:
+	entonces son diferentes nombres por ejemplo: numero de request a api vs network usage de un pod?
+17:53:24 From Enrique Cocom Canul to Everyone:
+	Cual es el costo de Prometheus?
+17:53:48 From Renzo Franchetto to Everyone:
+	no me quedo claro...¿para que sirve exporter?
+17:55:13 From Enrique Cocom Canul to Everyone:
+	Ok muchas gracias 😄
+17:55:43 From Renzo Franchetto to Everyone:
+	gracias
+17:56:28 From Carlos Rogel Hurtado to Everyone:
+	Replying to "entonces son diferen..."
+	
+	gracias :)
+18:00:39 From Byron to Everyone:
+	[5m] significa los últimos 5 minutos o cada 5 minutos?
+18:01:37 From Edgar Priego to Everyone:
+	de 5 minutos atrás a  ahorita
+18:02:04 From Byron to Everyone:
+	En ese caso 1 parece ser como booleano verdad?
+18:03:17 From Enrique Cocom Canul to Everyone:
+	Podría mostrar como desplegarlo con Docker?
+18:03:33 From Alejandra Bricio to Everyone:
+	Replying to "Podría mostrar como ..."
+	
+	Si también lo haremos! :-)
+18:10:37 From Enrique Cocom Canul to Everyone:
+	Listo
+18:10:45 From Byron to Everyone:
+	¡Listo!
+18:10:57 From Raúl Martínez to Everyone:
+	🐥
+18:11:16 From Cesar Caceres to Everyone:
+	listo
+18:11:18 From Edison Maza E to Everyone:
+	ok
+18:11:19 From Johnny III Young Ospino to Everyone:
+	👍🏽
+18:11:21 From Cristian Arbelaez to Everyone:
+	👍
+18:11:25 From Leonardo Moya to Everyone:
+	👍
+18:11:26 From Arturo Mena to Everyone:
+	👍
+18:13:18 From Anderson Llanos to Everyone:
+	Yo no lo descargo porque ya lo tengo
+18:14:05 From Alejandra Bricio to Everyone:
+	curl -LO https://github.com/prometheus/prometheus/releases/download/v2.51.2/prometheus-2.51.2.darwin-amd64.tar.gz
+18:14:18 From Alejandra Bricio to Everyone:
+	https://prometheus.io/download/
+18:15:07 From Alejandra Bricio to Everyone:
+	tar xvfz prometheus-2.51.2.darwin-amd64.tar.gz
+18:15:07 From Agus Vera to Everyone:
+	descomprimir
+18:16:39 From Alejandra Bricio to Everyone:
+	global:
+	  scrape_interval:     15s # By default, scrape targets every 15 seconds.
+	
+	  # Attach these labels to any time series or alerts when communicating with
+	  # external systems (federation, remote storage, Alertmanager).
+	  external_labels:
+	    monitor: 'codelab-monitor'
+	
+	# A scrape configuration containing exactly one endpoint to scrape:
+	# Here it's Prometheus itself.
+	scrape_configs:
+	  # The job name is added as a label `job=<job_name>` to any timeseries scraped from this config.
+	  - job_name: 'prometheus'
+	
+	    # Override the global default and scrape targets from this job every 5 seconds.
+	    scrape_interval: 5s
+	
+	    static_configs:
+	      - targets: ['localhost:9090']
+18:17:38 From Alejandra Bricio to Everyone:
+	pbpaste > prometheus.yml
+18:20:40 From Alejandra Bricio to Everyone:
+	./prometheus --config.file=prometheus.yml
+18:21:55 From Alejandra Bricio to Everyone:
+	localhost:9090
+18:23:02 From Edgar Priego to Everyone:
+	es como el server, y falta los agentes
+18:23:53 From Alejandra Bricio to Everyone:
+	https://prometheus.io/download/#node_exporter
+18:25:03 From Alejandra Bricio to Everyone:
+	curl -LO https://github.com/prometheus/node_exporter/releases/download/v1.7.0/node_exporter-1.7.0.darwin-amd64.tar.gz
+18:25:07 From Alejandra Bricio to Everyone:
+	tar xvfz node_exporter-1.7.0.darwin-amd64.tar.gz
+18:25:53 From Alejandra Bricio to Everyone:
+	./node_exporter --web.listen-address 127.0.0.1:8080
+	./node_exporter --web.listen-address 127.0.0.1:8081
+	./node_exporter --web.listen-address 127.0.0.1:8082
+18:26:08 From Byron to Everyone:
+	Ale, no se ve muy bien la parte de abajo
+18:26:38 From Byron to Everyone:
+	Si, gracias
+18:26:42 From Alejandra Bricio to Everyone:
+	Reacted to "Si, gracias" with 👍
+18:27:31 From Hader Mendez to Everyone:
+	se corto la pantalla ?
+18:27:32 From Alejandra Bricio to Everyone:
+	http://localhost:8080/metrics, http://localhost:8081/metrics http://localhost:8082/metrics.
+18:27:33 From Edgar Olivos to Everyone:
+	Alguien puede copier y pegar de nuevo el primer curl -LO ?
+18:28:27 From Leonardo Moya to Everyone:
+	curl -LO https://github.com/prometheus/prometheus/releases/download/v2.51.2/prometheus-2.51.2.darwin-amd64.tar.gz
+18:28:52 From Edgar Olivos to Everyone:
+	Reacted to "curl -LO https://git..." with 👍
+18:28:54 From Enrique Cocom Canul to Everyone:
+	Reacted to "curl -LO https://git..." with 👍
+18:28:59 From Agustin to Everyone:
+	No
+18:29:02 From Agustin to Everyone:
+	hay que agfregarlo
+18:29:04 From diego gordillo to Everyone:
+	no
+18:29:07 From Byron to Everyone:
+	No, faltaría un exporter?
+18:29:11 From Cristian Arbelaez to Everyone:
+	Configurar
+18:29:14 From ivan almendra to Everyone:
+	para mi no, por que no generaste un enlace con prometeus?
+18:29:54 From Richard Gil to Everyone:
+	falta recibirlo
+18:31:01 From Alejandra Bricio to Everyone:
+	find / -type f -name prometheus.yml
+18:31:06 From Renzo Franchetto to Everyone:
+	Replying to "./node_exporter --we..."
+	
+	ahhhh, no me funciona porque es un binario para Mac me parece
+18:32:22 From Edgar Olivos to Everyone:
+	no hay node_exporter para windows, cierto?
+18:32:27 From Alejandra Bricio to Everyone:
+	scrape_configs:
+	  - job_name:       'node'
+	
+	    # Override the global default and scrape targets from this job every 5 seconds.
+	    scrape_interval: 5s
+	
+	    static_configs:
+	      - targets: ['localhost:8080', 'localhost:8081']
+	        labels:
+	          group: 'production'
+	
+	      - targets: ['localhost:8082']
+	        labels:
+	          group: 'canary'
+18:33:11 From Alejandra Bricio to Everyone:
+	https://github.com/prometheus-community/windows_exporter
+18:33:43 From Edgar Priego to Everyone:
+	https://github.com/prometheus-community/windows_exporter/releases
+18:33:59 From Alejandra Bricio to Everyone:
+	go get -u github.com/prometheus/promu
+	go get -u github.com/prometheus-community/windows_exporter
+	cd $env:GOPATH/src/github.com/prometheus-community/windows_exporter
+	promu build -v
+	.\windows_exporter.exe
+18:34:09 From Gonzalo Mahserdjian to Everyone:
+	por lo que veo son cosas distintas, el Windows exporter es para ver info sobre servidores windows
+18:34:35 From Gonzalo Mahserdjian to Everyone:
+	si, no son lo mismo
+18:34:49 From Gonzalo Mahserdjian to Everyone:
+	ahí incluso trae info de active directory}
+18:35:16 From Alejandra Bricio to Everyone:
+	scrape_configs:
+	  - job_name:       'node'
+	
+	    # Override the global default and scrape targets from this job every 5 seconds.
+	    scrape_interval: 5s
+	
+	    static_configs:
+	      - targets: ['localhost:8080', 'localhost:8081']
+	        labels:
+	          group: 'production'
+	
+	      - targets: ['localhost:8082']
+	        labels:
+	          group: 'canary'
+18:37:02 From Byron to Everyone:
+	Existe hot reload?
+18:37:50 From Alejandra Bricio to Everyone:
+	./prometheus --config.file=prometheus.yml
+18:37:57 From Agustin to Everyone:
+	Profe, consulta, quedaría asi el .yml ?
+18:38:06 From Byron to Everyone:
+	Parece que sí, existe:
+	
+	https://prometheus.io/docs/prometheus/latest/configuration/configuration/#:~:text=Prometheus%20can%20reload%20its%20configuration,%2Dlifecycle%20flag%20is%20enabled).
+18:38:46 From Agustin to Everyone:
+	No me deja
+18:38:48 From Agustin to Everyone:
+	jeje es muy largo
+18:39:11 From Agustin to Everyone:
+	Porfa, tengo duda si es completo o bien se borra lo que estaba anters  después de scrapeconfigs
+18:39:13 From Gonzalo Mahserdjian to Everyone:
+	mejo como archivo al grupo de Telegram o un repo
+18:39:16 From Agustin to Everyone:
+	y se agrega lo nuevo
+18:39:23 From Gonzalo Mahserdjian to Everyone:
+	mejor*
+18:39:33 From Alejandra Bricio to Everyone:
+	global:
+	  scrape_interval:     15s # By default, scrape targets every 15 seconds.
+	
+	  # Attach these labels to any time series or alerts when communicating with
+	  # external systems (federation, remote storage, Alertmanager).
+	  external_labels:
+	    monitor: 'codelab-monitor'
+	
+	# A scrape configuration containing exactly one endpoint to scrape:
+	# Here it's Prometheus itself.
+	scrape_configs:
+	  - job_name:       'node'
+	
+	    # Override the global default and scrape targets from this job every 5 seconds.
+	    scrape_interval: 5s
+	
+	    static_configs:
+	      - targets: ['localhost:8080', 'localhost:8081']
+	        labels:
+	          group: 'production'
+	
+	      - targets: ['localhost:8082']
+	        labels:
+	          group: 'canary'
+	  # The job name is added as a label `job=<job_name>` to any timeseries scraped from this config.
+	  - job_name: 'prometheus'
+	
+	    # Override the global default and scrape targets from this job every 5 seconds.
+	    scrape_interval: 5s
+	
+	    static_configs:
+	      - targets: ['localhost:9090']
+18:39:37 From Agustin to Everyone:
+	genial!
+18:39:37 From Cesar Caceres to Everyone:
+	Esta parte ya no hay que agregarla: scrape_configs:
+18:42:46 From Carlos Rogel Hurtado to Everyone:
+	vamos a ver generación de alertas en grafana?
+18:43:27 From Carlos Rogel Hurtado to Everyone:
+	Replying to "vamos a ver generaci..."
+	
+	los dashboards que generan
+18:43:28 From Hader Mendez to Everyone:
+	veremos reportes ?
+18:43:32 From Gonzalo Mahserdjian to Everyone:
+	grafana toma datos de prometheus
+18:43:44 From Gonzalo Mahserdjian to Everyone:
+	también de otros
+18:45:09 From Carlos Rogel Hurtado to Everyone:
+	entonces prometheus es el que conectan con las herramientas on-call ejemp opsgenie?
+18:45:29 From Alejandra Bricio to Everyone:
+	docker run -p 9090:9090 prom/prometheus
+18:46:46 From Felipe González S to Everyone:
+	Reacted to "docker run -p 9090:9..." with ❤️
+18:46:48 From Agustin to Everyone:
+	haa me quedo arriba el servicio de el otro
+18:46:51 From Felipe González S to Everyone:
+	Reacted to "haa me quedo arriba ..." with 😅
+18:46:54 From Cristian Arbelaez to Everyone:
+	Reacted to "docker run -p 9090:9..." with ❤️
+18:46:57 From Enrique Cocom Canul to Everyone:
+	Reacted to "docker run -p 9090:9..." with ❤️
+18:47:02 From Carlos Rogel Hurtado to Everyone:
+	Reacted to "docker run -p 9090:9..." with ❤️
+18:47:08 From Agustin to Everyone:
+	Status: Downloaded newer image for prom/prometheus:latest
+	docker: Error response from daemon: driver failed programming external connectivity on endpoint distracted_shtern (1b604c5b6a46e191004b49b6ca55b37e667ca95a8741e942ec313a4e01abd1d5): Error starting userland proxy: listen tcp4 0.0.0.0:9090: bind: address already in use.
+	ERRO[0038] error waiting for container: context canceled
+18:47:10 From Yakin Dario Mendez Muñoz to Everyone:
+	Se ha reaccionado a "docker run -p 9090:9..." con ❤️
+18:47:25 From Agustin to Everyone:
+	Como bajo el anterior, pensé que bajaba solo
+18:48:02 From Agustin to Everyone:
+	será 9010:9010 xD
+18:49:41 From Renzo Franchetto to Everyone:
+	un node exporter instala en cada nodo que se quiere vigilar verdad? en este caso se utilizan los puertos como nodos en mi ejemplo
+18:50:37 From Renzo Franchetto to Everyone:
+	ahhh jajaj  perdon me respondi solo
+18:51:56 From Carlos Rogel Hurtado to Everyone:
+	entonces on-call seria prometheus + grafana + opsgenie?
+18:52:13 From Alejandra Bricio to Everyone:
+	https://grafana.demo.do.prometheus.io/?orgId=1
+18:53:36 From Carlos Rogel Hurtado to Everyone:
+	e igual una duda las horas que marca grafana es la hora del servidor o nuestra hora?
+18:56:03 From Carlos Rogel Hurtado to Everyone:
+	Replying to "e igual una duda las..."
+	
+	perfecto, muchas gracias :)
+18:56:35 From Edgar Priego to Everyone:
+	es independiente de Prometeus
+18:57:20 From Alejandra Bricio to Everyone:
+	https://grafana.com/docs/grafana/latest/setup-grafana/installation/mac/
+18:58:40 From Pablo to Everyone:
+	grafana se puede usar en un contenedor o se instala local?
+19:00:52 From Checo to Everyone:
+	que pasa con el disco duro ? me refiero a que se deben de guardar todas metricas, premetheus tiene algun "limite" o algun garbage collector para liberar espacio en el disco duro
+19:01:11 From Jesús to Everyone:
+	En España son las 03:00 de la madrugada
+19:01:28 From Johnny III Young Ospino to Everyone:
+	Reacted to "En España son las 03..." with 😯
+19:01:38 From Carlos Rogel Hurtado to Everyone:
+	Reacted to "En España son las 03..." with 😯
+19:02:59 From Ariana González Vidal to Everyone:
+	Reacted to "En España son las 03..." with 😎
+19:03:15 From Felipe González S to Everyone:
+	Reacted to "En España son las 03..." with 😴
+19:03:35 From Enrique Cocom Canul to Everyone:
+	Reacted to "En España son las 03..." with 😯
+19:07:34 From Gonzalo Mahserdjian to Everyone:
+	en connections sale la conexión de prometheus
+19:07:54 From Gonzalo Mahserdjian to Everyone:
+	en datrasources
+19:08:43 From Gonzalo Mahserdjian to Everyone:
+	:D
+19:08:49 From Carlos Rogel Hurtado to Everyone:
+	Reacted to "en connections sale ..." with 👏
+19:08:53 From Enrique Cocom Canul to Everyone:
+	Reacted to "en connections sale ..." with 👏
+19:08:55 From Agus Vera to Everyone:
+	Reacted to "en connections sale ..." with 👏
+19:09:24 From Alejandra Bricio to Everyone:
+	Reacted to "en connections sale ..." with 👏
+19:09:27 From Cody to Everyone:
+	Reacted to "en connections sale ..." with 👏
+19:09:43 From Johnny III Young Ospino to Everyone:
+	Reacted to ":D" with 👏🏽
+19:09:45 From Raúl Martínez to Everyone:
+	👏👏👏
+19:09:48 From Carlos Rogel Hurtado to Everyone:
+	Reacted to ":D" with 👏🏽
+19:10:11 From Renzo Franchetto to Everyone:
+	😭
+19:10:13 From david rolando aguirre to Everyone:
+	en una arquitectura de monitorización, que consideraciones o preguntas debería hacerme para poder implementar la monitorización, por ejemplo. Implementar grafana y prometheus dentro de el cluster? o quizá fuera de ella con varios prometheus que alimenten a un mismo grafana?
+19:10:31 From Carlos Rogel Hurtado to Everyone:
+	cual seria la diferencia entre SRE vs Devops?
+	y como se miden lo de MTTR: Mean time to repair?
+19:10:55 From Checo to Everyone:
+	que pasa con el disco duro ? me refiero a que se deben de guardar todas metricas, premetheus tiene algun "limite" o algun garbage collector para liberar espacio en el disco duro
+19:13:04 From Carlos Rogel Hurtado to Everyone:
+	Replying to "cual seria la difere..."
+	
+	sip roles
+19:13:16 From Alejandro Serrano Nardelli to Everyone:
+	Prometheus puede monitorizar un balanceador de carga de AWS (ELB) ?
+19:15:34 From david rolando aguirre to Everyone:
+	S3 para el almacenamiento no? puede ser.
+19:16:31 From Alejandro Serrano Nardelli to Everyone:
+	Gracias!
+19:16:49 From Cesar Caceres to Everyone:
+	Replying to "que pasa con el disc..."
+	
+	El tiempo de retención de datos en Prometheus varía según la configuración específica de cada implementación. Por defecto, Prometheus retiene datos durante 15 días. Sin embargo, este período puede ajustarse mediante la configuración del archivo de configuración prometheus.yml. La retención de datos se define mediante la directiva --storage.tsdb.retention.time en este archivo, donde se puede especificar el tiempo de retención deseado en horas, días, semanas o años. Por ejemplo, para retener datos durante 30 días, se podría configurar --storage.tsdb.retention.time=720h en el archivo de configuración.
+19:16:53 From david rolando aguirre to Everyone:
+	no creo que sea muy beneficio, porque tendrías que llamar a la API de cloudwatch y eso genera costos.
+19:16:57 From Gonzalo Mahserdjian to Everyone:
+	influxdb2?
+19:17:11 From Carlos Rogel Hurtado to Everyone:
+	Reacted to "El tiempo de retenci..." with 👏
+19:17:17 From Cristian Arbelaez to Everyone:
+	👍
+19:17:36 From Carlos Rogel Hurtado to Everyone:
+	y las metricas como Apdex que son?
+19:17:43 From Cristian Arbelaez to Everyone:
+	Muchas gracias...
+19:17:48 From david rolando aguirre to Everyone:
+	muchas gracias
+19:17:52 From Carlos Rogel Hurtado to Everyone:
+	muchas gracias
+19:17:54 From Fabricio Paz to Everyone:
+	Valio la pena quedarse hasta tarde mil gracias Ale!
+19:17:56 From Felipe González S to Everyone:
+	Gracias!
+19:17:58 From Gonzalo Mahserdjian to Everyone:
+	muchas gracias Ale, buenas noches
+19:18:05 From Renzo Franchetto to Everyone:
+	good evening
+19:18:13 From Cesar Caceres to Everyone:
+	Muchas gracias estuvo buena la clase.
+19:18:23 From Renzo Franchetto to Everyone:
+	🤖

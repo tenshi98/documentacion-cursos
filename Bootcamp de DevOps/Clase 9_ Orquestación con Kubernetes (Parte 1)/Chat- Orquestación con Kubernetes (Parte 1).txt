@@ -1,0 +1,491 @@
+17:04:28 From Renzo Franchetto to Everyone:
+	Holo!
+17:04:41 From Fernando Emanuel Lira to Everyone:
+	Buenardas!
+17:04:44 From Leo E to Everyone:
+	hola buenas noches
+17:04:46 From Anibal Castro Ruiz to Everyone:
+	buenas noches para todos!
+17:04:49 From LatinCrack MasterByte to Everyone:
+	Buenas tardes Jani...
+17:04:51 From Agustin Quiroga to Everyone:
+	Bueenas!
+17:04:52 From Enrique Cocom Canul to Everyone:
+	Hola buenas tardes 😄
+17:04:53 From Alejandro Avila to Everyone:
+	Uuhhhh Fernando!!! Que grande. Espectacular el curso de Docker!
+17:06:13 From Vladimir Ramirez to Everyone:
+	hola buenas tardes/noches
+17:06:44 From Edgar Priego to Everyone:
+	Saludos
+17:07:46 From Adrian Trombetta to Everyone:
+	Hola, cuales son las buenas practicas para manejar credenciales usando docker-compose?
+17:08:25 From Adrian Trombetta to Everyone:
+	exacto. usarr ,env?
+17:08:47 From Adrian Trombetta to Everyone:
+	ok. Gracias
+17:12:27 From Edgar Priego to Everyone:
+	ósea solo en un servidor
+17:14:50 From Renzo Franchetto to Everyone:
+	se pueden usar en conjunto? es decir k8s con rancher
+17:14:55 From Ruben Coria to Everyone:
+	openshift
+17:21:15 From Johnny III Young Ospino to Everyone:
+	Puedes mover el cursor en las diapositivas para explicar las mismas ?
+17:21:45 From Ana to Everyone:
+	sería un solo control plane?
+17:21:55 From Ivan to Everyone:
+	se puede tener solo el control plane ? o es forzoso tener nodos ?
+17:22:00 From Luis Serret to Everyone:
+	Por buenas practicas son 3
+17:22:27 From Mairenis to Everyone:
+	si quieres HA Deben ser minimo 3
+17:22:34 From Vladimir Ramirez to Everyone:
+	minimo 2 para tener redundancia
+17:22:51 From Ruben Coria to Everyone:
+	creo q lei q tiene q ser impar
+17:22:54 From Ruben Coria to Everyone:
+	en al gun lado
+17:23:25 From Renzo Franchetto to Everyone:
+	no me quedo claro que es CONTROL PLANE y cual es su funcion...
+17:24:34 From Vladimir Ramirez to Everyone:
+	el control plane maneja los workers, agenda las tareas dentro del cluster
+17:24:47 From Luis Serret to Everyone:
+	El control plane es el nodo maestro regularmente son 3 por así decirlo como el cerebro del cluster y donde se desplegan las apps o los pods es en los nodos workers
+17:24:55 From Renzo Franchetto to Everyone:
+	osea, seria el cerebro del cluster por asi decirlo?
+17:25:02 From bgonzalez to Everyone:
+	https://www.youtube.com/watch?v=vxtq_pJp7_A&ab_channel=IBMTechnology
+17:25:17 From Renzo Franchetto to Everyone:
+	gracias muchachos
+17:25:29 From Luis Serret to Everyone:
+	El Control Plane de Kubernetes incluye varios componentes, como el API Server, el Scheduler y el Controller Manager, que trabajan juntos para gestionar y coordinar todas las aplicaciones y contenedores que se ejecutan en el clúster
+17:26:20 From Renzo Franchetto to Everyone:
+	ahh tranquilamente lo puedo analizar como una "colmena" entonces : )
+17:27:35 From Diego Vidal Caro to Everyone:
+	Puedes explicar con una aplicación real para poder aterrizar
+17:27:36 From Renzo Franchetto to Everyone:
+	existe algo similar a CRON JOB en k8s? en caso de que si existan...eso tambien lo gestinaria el node master/control plane?
+17:29:38 From Luis Serret to Everyone:
+	Replying to "existe algo similar ..."
+	
+	Si, son trabajos que se ejecutan en el horario que tu elijas , y ese pod inicia en ese horario y termina en cuanto termine de ejecutar esa tarea
+17:30:05 From Luis Serret to Everyone:
+	Replying to "existe algo similar ..."
+	
+	https://kubernetes.io/docs/concepts/workloads/controllers/cron-jobs/
+17:32:39 From Angeida to Everyone:
+	De que tipi es sea db?
+17:33:01 From Renzo Franchetto to Everyone:
+	Replying to "existe algo similar ..."
+	
+	que maestro, gracias!. me voy a poner a leer la docu
+17:33:02 From Luis Serret to Everyone:
+	Replying to "De que tipi es sea d..."
+	
+	Clave-valor
+17:34:02 From Andrés M. Martínez to Everyone:
+	los nodes pueden ser una vps?
+17:35:16 From Luis Serret to Everyone:
+	Ultimamente k8s utiliza container como runtime en lugar de docker
+17:35:21 From Renzo Franchetto to Everyone:
+	el kube proxy para que sirve?
+17:35:29 From Luis Serret to Everyone:
+	*containerd
+17:37:33 From Luis Serret to Everyone:
+	Replying to "el kube proxy para q..."
+	
+	se encarga de gestionar el tráfico de red, su principal función es facilitar la comunicación entre los diferentes servicios y aplicaciones
+17:38:52 From Ricardo Arango to Everyone:
+	POD = 1 ó más contenedores. Pero contenedores de la misma app ó  contenedores de diferente apps?
+17:39:03 From Marco Grijalva to Everyone:
+	El cliente kubeclt puede usarse desde un servidor diferente a donde se instala el cluster?
+17:39:06 From Renzo Franchetto to Everyone:
+	para que sirve el scheduler? no me quedo del todo claro
+17:39:59 From Luis Serret to Everyone:
+	Replying to "POD = 1 ó más conten..."
+	
+	Puede ser de la misma app o puede contener otra imagen de docker totalmente diferente
+17:40:27 From Paul Rocha to Everyone:
+	Respondiendo a "POD = 1 ó más co..."
+	
+	tambien pueden ir sidecards
+17:40:57 From Luis Serret to Everyone:
+	Replying to "El cliente kubeclt p..."
+	
+	Se puede utilizar el kubectl desde otro sitio como por ejemplo lens o también openlens, k9s, etc
+17:41:36 From Felipe González S to Everyone:
+	add ➕
+17:41:37 From Ruben Coria to Everyone:
+	Replying to "El cliente kubeclt p..."
+	
+	para usar k9s o lens si o si tenes q tener instalado kubectl
+17:41:43 From Diego Vidal Caro to Everyone:
+	Replying to "para que sirve el sc..."
+	
+	El scheduler es un componente central de Kubernetes que se encarga de asignar pods a los nodos. El scheduler determina qué nodos son ubicaciones válidas para cada pod en la cola de programación según las restricciones y los recursos disponibles.
+17:42:03 From Marco Grijalva to Everyone:
+	Replying to "para que sirve el sc..."
+	
+	Asigna los pods a los nodos worker con base a los recursos disponibles
+17:43:47 From Renzo Franchetto to Everyone:
+	esos Objetos son yaml?
+17:44:13 From Ricardo Arango to Everyone:
+	Entonces, 1 POD es como un compose! 
+	En 1 POD va el servidor (1 contenedor) y la DB(otro contenedoor)
+17:45:49 From Carlos Rojo to Everyone:
+	Kubernetes balancea la carga cuando tengo varias instancias de mi app ?
+17:46:26 From Luis Serret to Everyone:
+	Replying to "El cliente kubeclt p..."
+	
+	La misma herramienta te habilita kubectl
+17:48:54 From Luis Serret to Everyone:
+	Replying to "Kubernetes balancea ..."
+	
+	Cuando tienes varios pods, regularmente se utiliza también un service, ese service distribuye la carga entre tus pods
+17:49:55 From Maria del Carmen Saucedo to Everyone:
+	Lo ideal no seria que por cada POD exista 1 Container dentro?
+17:50:03 From Alex Serret to Everyone:
+	Reacted to "Cuando tienes varios..." with ❤️
+17:50:34 From Felipe González S to Everyone:
+	add ✅
+17:50:54 From Marco Grijalva to Everyone:
+	En donde se almacenan los volumes?
+17:51:21 From almendra to Everyone:
+	una consulta, estos PODS comparte todo una misma base de datos o cada pod tiene su db?
+17:53:13 From Renzo Franchetto to Everyone:
+	se recomieda usar siempre la latest?
+17:54:00 From Luis Serret to Everyone:
+	Replying to "se recomieda usar si..."
+	
+	No, es mejor ir versionando las imágenes de docker, e ir actualizando por versiones no por latest
+17:54:10 From Marco Grijalva to Everyone:
+	Replying to "se recomieda usar si..."
+	
+	No, ya nos había dicho rox
+17:54:13 From EDISON FREDDY SANTACRUZ MORA to Everyone:
+	Para que nomás puede. Servir o se usan los labes
+17:54:18 From Luis Serret to Everyone:
+	Reacted to "No, ya nos había dic..." with 👍
+17:55:14 From Luis Serret to Everyone:
+	Replying to "Para que nomás puede..."
+	
+	son pares de clave-valor que se pueden adjuntar a varios objetos, como pods, servicios, volúmenes persistentes, etc. Sirven para organizar, seleccionar y filtrar estos objetos de manera flexible y dinámica
+17:55:24 From bgonzalez to Everyone:
+	depende
+17:57:57 From Franklin Guevara to Everyone:
+	Replying to "una consulta, estos ..."
+	
+	De hecho lo recomendable es que la DB sea un servicio completamente aparte del servicio de k8s
+17:58:32 From almendra to Everyone:
+	Replying to "una consulta, estos ..."
+	
+	Por que puede haber varios pods corriendo el mismo servicio, no?
+17:58:47 From almendra to Everyone:
+	Replying to "una consulta, estos ..."
+	
+	y ahí necesitan conectarse a la misma db supongo
+17:59:00 From bgonzalez to Everyone:
+	asies, los pods se pueden morir en cualquier momento, entonces no es recomendable tener datos ahi
+17:59:11 From almendra to Everyone:
+	Replying to "una consulta, estos ..."
+	
+	perfecto, ahora entendi
+17:59:13 From almendra to Everyone:
+	Replying to "una consulta, estos ..."
+	
+	gracias
+17:59:59 From Daniel Chavez to Everyone:
+	puedes compartir los link, gracias
+18:00:18 From Alejandro Avila to Everyone:
+	Hay una config en Docker Desktop para instalar Kubernetes… Recomiendas usarla?
+18:01:22 From Agustin Quiroga to Everyone:
+	Profe es Chip m ?, anda bien ? Que cantidad de ram en M recomienda
+18:01:27 From Agustin Quiroga to Everyone:
+	Con 8gb anda bien ?
+18:02:38 From bgonzalez to Everyone:
+	minikube es buena opcion para local
+18:03:05 From Vladimir Ramirez to Everyone:
+	que tal kubeadm?
+18:04:02 From Daniel Chavez to Everyone:
+	yo
+18:04:03 From Anderson Llanos to Everyone:
+	yo
+18:04:06 From Mairenis to Everyone:
+	yo
+18:04:06 From Alejandro Murcia to Everyone:
+	Yo
+18:04:07 From Felipe González S to Everyone:
+	yo
+18:04:07 From Edison Maza E to Everyone:
+	ok
+18:04:07 From Ana to Everyone:
+	yo
+18:04:08 From Fernando Emanuel Lira to Everyone:
+	somos varios
+18:04:09 From Paula Balza to Everyone:
+	Yo Ubuntu
+18:04:12 From Cristian Gaona to Everyone:
+	yo
+18:04:13 From Vladimir Ramirez to Everyone:
+	yo
+18:05:04 From Vladimir Ramirez to Everyone:
+	https://kubernetes.io/docs/reference/setup-tools/kubeadm/
+18:05:04 From Paula Balza to Everyone:
+	podrias pasar los links?
+18:05:07 From Alejandro Murcia to Everyone:
+	Funciona en RPI?
+18:05:18 From Renzo Franchetto to Everyone:
+	Ubuntu viejo y confiable
+18:05:24 From Paula Balza to Everyone:
+	gracias!
+18:05:29 From Paula Balza to Everyone:
+	Se ha reaccionado a "Ubuntu viejo y con..." con 😂
+18:05:53 From Ana to Everyone:
+	Me puedes repetir como activar kubernetes en docker desktop
+18:06:02 From almendra to Everyone:
+	donde esta el pirateado? xd
+18:06:13 From Renzo Franchetto to Everyone:
+	Replying to "donde esta el pirate..."
+	
+	jeje
+18:06:22 From Marco Grijalva to Everyone:
+	Replying to "donde esta el pirate..."
+	
+	Pasen el Zelda
+18:06:26 From bgonzalez to Everyone:
+	x2
+18:06:41 From Anderson Llanos to Everyone:
+	Replying to "Me puedes repetir co..."
+	
+	Entra a settings
+18:06:48 From Renzo Franchetto to Everyone:
+	siempre humillando al pobre jaja
+18:07:26 From Jani to Fernando GP(direct message):
+	Deseas algún break antes?
+18:07:26 From Alejandro Murcia to Everyone:
+	Se ha reaccionado a "siempre humillando..." con 😂
+18:07:28 From bgonzalez to Everyone:
+	https://www.amazon.com/Kubernetes-Bible-definitive-deploying-platforms-ebook/dp/B09GS29SHN
+18:07:31 From Anderson Llanos to Everyone:
+	Minikube solo sirve para desarrollo local?
+18:07:55 From Renzo Franchetto to Everyone:
+	seguimos
+18:07:55 From bgonzalez to Everyone:
+	si
+18:07:58 From Daniel Chavez to Everyone:
+	si, break de 5
+18:07:59 From Franklin Guevara to Everyone:
+	Si el break esta bien
+18:08:03 From Anibal Castro Ruiz to Everyone:
+	break
+18:08:08 From Renzo Franchetto to Everyone:
+	no pain no gain
+18:08:16 From Johnny III Young Ospino to Everyone:
+	Seguimos
+18:08:18 From Felipe González S to Everyone:
+	add ➕
+18:08:19 From Anderson Llanos to Everyone:
+	Y en produccion cual se suele ver?
+18:08:36 From Luis Serret to Everyone:
+	Replying to "Y en produccion cual..."
+	
+	EKS de aws por ejemplo
+18:08:51 From david rolando aguirre to Everyone:
+	tengo entendido que Kubeadm si sirve para PROD
+18:08:55 From Luis Serret to Everyone:
+	Replying to "Y en produccion cual..."
+	
+	https://aws.amazon.com/es/eks/
+18:09:04 From Anderson Llanos to Everyone:
+	Replying to "Y en produccion cual..."
+	
+	Va, gracias
+18:09:11 From Luis Serret to Everyone:
+	Reacted to "Va, gracias" with 👏
+18:09:15 From Ana to Everyone:
+	Estoy en linux jaja
+18:09:33 From Alejandro Avila to Everyone:
+	Esta arriba a la derecha
+18:09:34 From Agustin Quiroga to Everyone:
+	Esta en el mismo lugar en Mac
+18:09:40 From Alejandro Avila to Everyone:
+	En Desktop de Ubuntu
+18:09:47 From Agustin Quiroga to Everyone:
+	El engranaje arriba derecha y despues Kubernetes y habilitar
+18:09:48 From Ana to Everyone:
+	Ya lo encontré gracias
+18:09:55 From Carlos Covis to Everyone:
+	el engranaje
+18:10:05 From bgonzalez to Everyone:
+	siempre va a estar la opcion de k8s on-premise, para los masters, pero es mejor tener el servicio administrado (a menos que quieras mantener tu propip cluster)
+18:10:25 From Luis Serret to Everyone:
+	Reacted to "siempre va a estar l..." with ❤️
+18:10:31 From Luis Serret to Everyone:
+	Replying to "siempre va a estar l..."
+	
+	Toda la razon
+18:11:00 From bgonzalez to Everyone:
+	https://phoenixnap.com/kb/how-to-install-kubernetes-on-a-bare-metal-server
+18:12:42 From david rolando aguirre to Everyone:
+	kubeadm es como la herramienta para clusters kubernetes on premise, lo complicado de kubeadm es que tu tienes que administrar todo el cluster.
+18:12:46 From Andrés to Everyone:
+	Cuando crear un pod, tu defines que contenedor debe estar en cada pod?
+18:12:48 From Luis Serret to Everyone:
+	El problema de Kubeadm es que tu tienes que administrarlo completamente, la ventaja de utilizar uno autoadministrado como por ejemplo de EKS de aws te despreocupas por administrarlo
+18:12:49 From Vladimir Ramirez to Everyone:
+	tengo kubeadm instalado en maquinas virtuales en VMware, y deseoso de usarlo hahaha
+18:13:32 From Vladimir Ramirez to Everyone:
+	Replying to "El problema de Kubea..."
+	
+	mas aprendisaje hahaha
+18:14:06 From Ana to Everyone:
+	como era el comando que mencionaste
+18:14:24 From bgonzalez to Everyone:
+	menos pelo :(
+18:14:45 From Felipe González S to Everyone:
+	add 🥲
+18:14:54 From Jani to Fernando GP(direct message):
+	Ya pasaron los 5 mins 😄
+18:15:14 From Luis Serret to Everyone:
+	Replying to "El problema de Kubea..."
+	
+	De echo kubeadm viene en la certificación de k8s CKA
+18:15:30 From Luis Serret to Everyone:
+	Reacted to "menos pelo :(" with 😂
+18:16:00 From Fernando GP to Everyone:
+	Reacted to "menos pelo :(" with 😂
+18:18:34 From Paula Balza to Everyone:
+	una pregunta estás trabajando con kind?
+18:19:28 From Paula Balza to Everyone:
+	ahh gracias estoy con Ubuntu jaja
+18:19:38 From Paula Balza to Everyone:
+	ahi busco como instalarlo
+18:19:56 From Fernando GP to Everyone:
+	https://kind.sigs.k8s.io/docs/user/quick-start/
+18:20:06 From Paula Balza to Everyone:
+	gracias!
+18:24:47 From david rolando aguirre to Everyone:
+	más en profundidad. Kubernetes no usa Docker para levantar los contenedores, usa el Runtime de Docker, que en una capa más profunda es containerd. Es otra razón por la que no lo verán usando Docker ps. Porque no crea un contenedor Docker como tal.
+18:30:18 From Ivan to Everyone:
+	en tu yaml en la parte del container -->image podria ir tu docker personalizado ???
+18:31:39 From Marco Grijalva to Everyone:
+	Cómo configuras esa conexión para obtener las images de docker de algún registry?
+18:33:51 From Vladimir Ramirez to Everyone:
+	cd
+18:34:13 From Angeida to Everyone:
+	Ahi setia el worker cierto?
+18:34:20 From Vladimir Ramirez to Everyone:
+	perdon, era en mi terminal que queria escribir
+18:36:34 From Andrés Alfaro to Everyone:
+	En caso de que en el pod exista mas de un container
+18:37:44 From Luis Serret to Everyone:
+	Replying to "En caso de que en el..."
+	
+	kubectl exec -it <nombre-del-pod> -c <nombre-del-contenedor> -- /bin/bash
+18:38:39 From Cristhian Castro to Everyone:
+	para abrir los puertos por medio del yaml ? o cómo se automatiza esta parte?
+18:38:39 From Andrés Alfaro to Everyone:
+	Replying to "En caso de que en el..."
+	
+	Buenisimo, exactamente esa era la duda, pura vida
+18:39:38 From Luis Serret to Everyone:
+	Reacted to "Buenisimo, exactamen..." with ❤️
+18:40:32 From Paul Rocha to Everyone:
+	Respondiendo a "para abrir los pue..."
+	
+	con los services
+18:40:55 From Cristhian Castro to Everyone:
+	Reacted to "con los services" with 👍
+18:42:16 From Luis Serret to Everyone:
+	Replying to "para abrir los puert..."
+	
+	https://kubernetes.io/docs/concepts/services-networking/service/
+18:42:27 From Cristhian Castro to Everyone:
+	Reacted to "https://kubernetes.i..." with 👍
+18:43:59 From Felipe González S to Everyone:
+	add 👍
+18:48:42 From david rolando aguirre to Everyone:
+	no
+18:49:10 From david rolando aguirre to Everyone:
+	más bien una consulta.
+18:49:24 From Diego Vidal Caro to Everyone:
+	Puedes ir mas lento por favor
+18:49:33 From Marco Grijalva to Everyone:
+	Supongo los configmap no se suben a tu repo de control de versiones como los .env
+18:49:40 From Andrés Alfaro to Everyone:
+	Nos podrías subir unos ejemplos al repositorio de gitlab?
+18:50:20 From david rolando aguirre to Everyone:
+	en un entorno ya hecho, normalmente jalamos las imágenes de repositorios privados, el acceso a ese repo privado lo haríamos con un secrets? o como podríamos logearnos a ese repo?
+18:51:33 From Felipe González S to Everyone:
+	Sería bueno que este chat quede en drive de recursos de la clase
+18:52:09 From Manuel Contasti to Everyone:
+	esto eso seria mejor en drive
+18:52:14 From Jani to Everyone:
+	Replying to "Sería bueno que este..."
+	
+	Si, lo subimos 🙌
+18:52:33 From Felipe González S to Everyone:
+	add ❤️
+18:53:23 From david rolando aguirre to Everyone:
+	ese Docker login es para Docker hub, por ejemplo ECR tiene su propia forma de acceder, y para llamarlo desde EKS tiene una manera más fácil es que por rol de permisos. Pero yo decía por ejemplo de un repo privado de ECR jalar a un cluster on premise. Me dejo pensando un poco.
+18:54:08 From Mairenis to Everyone:
+	vas a explicar el jueves como funciona el networking en k8s?
+18:54:42 From Ivan to Everyone:
+	se debe tener un cluster de Kubernetes por cada ambiente (stage, produccion ) ?
+18:54:47 From Vladimir Ramirez to Everyone:
+	vamos a ver Jenkins dentro de k8s?
+18:55:01 From Cristhian Castro to Everyone:
+	en código facilito tienen un curso donde veamos esto a nivel avanzado o que se hagan ejemplos en cloud ?
+18:55:01 From Marco Grijalva to Everyone:
+	En un proyecto real como utilizarías los namespaces? no sé por ejemplo una app con arquitectura de microservicios, cada cuantos pods los dividirías o por módulos o q onda
+18:55:36 From Agustin Quiroga to Everyone:
+	Recien veía, justo hay de docker y docker swarm nada mas
+18:55:39 From Agustin Quiroga to Everyone:
+	Faltaria ese 😄
+18:56:14 From Luis Serret to Everyone:
+	Replying to "En un proyecto real ..."
+	
+	Por ejemplo puedes crear Namespace para backend y para frontend y ya despliegues los pods de backend en el namespace de backend, etc
+18:56:27 From Vladimir Ramirez to Everyone:
+	usar Jenkins dentro del cluster de kubernetes para ci/cd
+18:56:45 From Marco Grijalva to Everyone:
+	Reacted to "Por ejemplo puedes c..." with 👍
+18:57:22 From Felipe González S to Everyone:
+	add ➕
+18:57:53 From Paul Rocha to Everyone:
+	Ya no sacan veriones nuevas de docker swarm
+18:58:02 From Marco Grijalva to Everyone:
+	Replying to "ese Docker login es ..."
+	
+	x2
+19:00:14 From Vladimir Ramirez to Everyone:
+	perfecto
+19:00:30 From Anderson Llanos to Everyone:
+	Gracias!
+19:00:43 From Fernando Ereño to Everyone:
+	muchas gracias!
+19:00:45 From Gonzalo Mahserdjian to Everyone:
+	muchas gracias Fernando!
+19:00:46 From Ana Aguilera to Everyone:
+	Gracias
+19:00:47 From Cristian Arbelaez to Everyone:
+	Profe mucha gracias, muy buena clase...
+19:00:56 From Enrique Cocom Canul to Everyone:
+	Muchas gracias 😄
+19:00:57 From Vladimir Ramirez to Everyone:
+	muy interesante la clase
+19:00:58 From Natalia to Everyone:
+	Muchas Gracias!!
+19:00:59 From Felipe González S to Everyone:
+	Muchas gracias!
+19:01:04 From ferodriguezl to Everyone:
+	veremos algun ejemplo de usar una bd postgresql en k8s?
+19:01:04 From Diego Vidal Caro to Everyone:
+	gracias
+19:01:21 From Ana to Everyone:
+	Muchas gracias
+19:02:22 From Fernando Emanuel Lira to Everyone:
+	Nos vemos
+19:02:25 From Johnny III Young Ospino to Everyone:
+	👏🏽

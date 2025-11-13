@@ -1,0 +1,27 @@
+# ConfigMap is a way to inject configuration data into a Pod.
+
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nginx-config
+data:
+  color: blue
+  size: large
+
+---
+
+# Pod that consumes the ConfigMap
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx
+spec:
+  containers:
+  - name: nginx
+    image: nginx:1.14
+    ports:
+    - containerPort: 80
+    envFrom:
+      - configMapRef:
+          name: nginx-config

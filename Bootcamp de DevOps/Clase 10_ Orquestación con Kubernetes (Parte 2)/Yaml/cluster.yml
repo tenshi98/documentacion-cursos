@@ -1,0 +1,41 @@
+# El service type clusterIP crea un servicio interno que solo es accesible desde dentro del cluster.
+# Permite acceder a los pods a través de un nombre de servicio.
+# El nombre del servicio sigue la estrucutra de nombre del servicio.nombre del namespace.svc.cluster.local
+# En este ejemplo seria backend-service.default.svc.cluster.local
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: frontend
+spec:
+  containers:
+  - name: ubuntu
+    image: ubuntu
+    tty: true
+
+---
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: backend
+  labels:
+    app: backend
+spec:
+  containers:
+  - name: nginx
+    image: nginx
+
+--- 
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: backend-service
+spec:
+  selector:
+    app: backend
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80

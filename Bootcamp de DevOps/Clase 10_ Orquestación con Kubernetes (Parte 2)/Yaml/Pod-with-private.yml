@@ -1,0 +1,13 @@
+# Para usar un registry privado, se debe crear un secret con las credenciales del registry y luego referenciarlo en el pod.
+# k create secret docker-registry regcred --docker-server=https://index.docker.io/v1/ --docker-username=user --docker-password= --docker-email=userd@gmail.com
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pod-private
+spec:
+  containers:
+  - name: nginx
+    image: fernando93/custom-nginx
+  imagePullSecrets:
+    - name: regcred

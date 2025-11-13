@@ -1,0 +1,15 @@
+# This is a simple pod with a label
+# k get pods -l env=local # para listar los pods con el label env=test
+# k apply -f Pod-with-label.yml
+# k get pods --show-labels
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-pod
+  labels:
+    env: local
+spec:
+  containers:
+  - name: my-container
+    image: nginx

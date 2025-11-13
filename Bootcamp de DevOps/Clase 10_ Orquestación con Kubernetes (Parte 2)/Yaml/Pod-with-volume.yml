@@ -1,0 +1,26 @@
+# Los volumes se utilizan para compartir datos entre los contenedores de un pod.
+# Son a nivel pod, por lo que todos los contenedores de un pod pueden acceder a los datos de un volumen.
+# En este ejemplo, se crea un volumen llamado volumen-test y se monta en dos contenedores.
+# k apply -f Pod-with-volume.yml
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: mypod
+spec:
+  containers:
+  - name: ubuntu1
+    image: ubuntu
+    tty: true
+    volumeMounts:
+      - name: volumen-test
+        mountPath: /var/www
+  - name: ubuntu2
+    image: ubuntu
+    tty: true
+    volumeMounts:
+      - name: volumen-test
+        mountPath: /root/test
+  volumes:
+    - name: volumen-test
+      emptyDir: {}

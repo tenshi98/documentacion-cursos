@@ -1,0 +1,12 @@
+# Run single pod
+# kubectl apply -f Pod.yml
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-pod
+spec:
+  containers:
+  - name: my-container
+    image: nginx
+  

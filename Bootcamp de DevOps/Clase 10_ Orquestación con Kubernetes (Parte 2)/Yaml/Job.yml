@@ -1,0 +1,18 @@
+# Los Jobs se utilizan para ejecutar tareas de procesamiento de lotes en Kubernetes.
+# Ejemplo para hacer un backup de una base de datos, ejecutar un script, etc.
+# En este ejemplo, se crea un Job que ejecuta un contenedor de Ubuntu y ejecuta el comando echo "Hello, Kubernetes!".
+# El Job se ejecutará una vez y se eliminará después de que se complete.
+# k apply -f Job.yml
+
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: example-job
+spec:
+  template:
+    spec:
+      containers:
+      - name: example-container
+        image: ubuntu
+        command: ["echo", "Hello, Kubernetes!"]
+      restartPolicy: Never

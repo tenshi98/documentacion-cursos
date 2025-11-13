@@ -1,0 +1,29 @@
+# Los init-containers se ejecutan antes que los containers principales
+# Se pueden usar para realizar tareas de inicialización como la descarga de archivos, la instalación de dependencias, etc.
+# En este ejemplo se crea un archivo index.html en el directorio /var/www antes de que el contenedor principal se inicie.
+# El init-container se ejecuta primero y crea el archivo index.html en el directorio /var/www.
+# k apply -f init-container.yml
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: init-container
+spec:
+  initContainers:
+  - name: init-container
+    image: ubuntu
+    tty: true
+    volumeMounts:
+      - name: init-volume
+        mountPath: /var/www
+    command: ['touch', '/var/www/index.html']
+  containers:
+  - name: app-container
+    image: ubuntu
+    tty: true
+    volumeMounts:
+      - name: init-volume
+        mountPath: /var/www
+  volumes:
+    - name: init-volume
+      emptyDir: {}

@@ -1,0 +1,526 @@
+
+17:03:26 From Nikolas to Everyone:
+	Buenas noches
+17:03:29 From Paula Balza to Everyone:
+	Buenas!
+17:03:37 From Agustin Quiroga to Everyone:
+	Buenaas
+17:03:38 From Ignacio Plaza to Everyone:
+	hola buenas noches
+17:03:40 From Juan José Giménez to Everyone:
+	Buenas noches!
+17:03:46 From Cristian Arbelaez to Everyone:
+	Hola
+17:03:48 From Windel Cruz to Everyone:
+	Hello
+17:03:49 From Edgar Priego to Everyone:
+	Saludos
+17:03:50 From Cristian Echeverria to Everyone:
+	hola buenas noches
+17:03:51 From Alfonso to Everyone:
+	Hola hola
+17:03:59 From Andrés Alfaro to Everyone:
+	Saludos a todos
+17:05:08 From Fernando GP to Everyone:
+	Buenas noches  😃
+17:05:24 From Ricardo Arango to Everyone:
+	Magistral la clase pasada de k8s!
+17:09:31 From Cristhian Castro to Everyone:
+	que pena que llegué un poco tarde. El profe va a compartir los comandos o ya fueron compartidos ? en caso de que si, donde fue compartido? gracias
+17:10:09 From Vladimir Ramirez to Everyone:
+	buenas, noches/tardes
+17:10:12 From Gonzalo Mahserdjian to Everyone:
+	hay alguna buena practica por lo cual se usa *.yaml y otros casos *.yml ?
+17:10:20 From Nikolas to Everyone:
+	podrias pasar la dirección del drive por favor
+17:10:42 From Fernando GP to Everyone:
+	https://drive.google.com/drive/folders/1vl45FmsJNIXak98S6sHGbAjBkqHB-VK_
+17:10:48 From Nikolas to Everyone:
+	Muchas gracias!
+17:10:52 From Enrique Cocom Canul to Everyone:
+	Reacted to "https://drive.google..." with 👍
+17:11:00 From Anderson Llanos to Everyone:
+	Replying to "hay alguna buena pra..."
+	
+	Da igual en realidad
+17:11:02 From Luis Serret to Everyone:
+	Replying to "hay alguna buena pra..."
+	
+	Es lo mismo
+17:11:07 From Marco Grijalva to Everyone:
+	Replying to "hay alguna buena pra..."
+	
+	same
+17:11:22 From Gonzalo Mahserdjian to Everyone:
+	Replying to "hay alguna buena pra..."
+	
+	creo que vi en configmaps diferente al deploy
+17:11:46 From Cristian Arbelaez to Everyone:
+	Por que no tiene seteada la versión (TAG)?
+17:11:54 From Marco Grijalva to Everyone:
+	La image
+17:12:00 From Gonzalo Mahserdjian to Everyone:
+	Replying to "hay alguna buena pra..."
+	
+	me parece que para diferenciar de la config de prometheus y/o grafana
+17:12:08 From Edgar Priego to Everyone:
+	yo digo que la image
+17:12:33 From EDISON FREDDY SANTACRUZ MORA to Everyone:
+	No está indentado
+17:12:33 From Edgar Olivos to Everyone:
+	Ports
+17:12:35 From Paula Balza to Everyone:
+	podiamos ver con kubectl logs pods/pod-not-running
+17:12:36 From EDISON FREDDY SANTACRUZ MORA to Everyone:
+	Correctamente
+17:12:58 From Luis Serret to Everyone:
+	Con $k describe po
+17:13:00 From Marco Grijalva to Everyone:
+	Dale un describe
+17:13:01 From Ana Aguilera to Everyone:
+	falta data
+17:13:02 From Paula Balza to Everyone:
+	claro claro
+17:13:06 From Paula Balza to Everyone:
+	no se ejecuto
+17:13:08 From Luis Serret to Everyone:
+	Y ver los eventos
+17:13:36 From Carlos Rogel Hurtado to Everyone:
+	no se asigno una version a ubuntu?
+17:13:52 From Nikolas to Everyone:
+	no hay un sh corriendo
+17:13:58 From diego gordillo to Everyone:
+	porque no tiene un servicio corriendo
+17:14:03 From Nikolas to Everyone:
+	osea que mantenga corriendo la consola
+17:14:09 From Edgar Olivos to Everyone:
+	Tiene algo que ver que necesitas darlo de alta como interactivo
+17:14:10 From Andrés to Everyone:
+	El proceso, se ejecuta muy rapido
+17:14:11 From bgonzalez to Everyone:
+	describe
+17:14:12 From Checo to Everyone:
+	pues esque no tienen nada que ejecutar le faltaria un bash o algo asi
+17:14:14 From Richard Gil to Everyone:
+	no esta en segundo plano o un script luego del despliegue
+17:14:14 From Vladimir Ramirez to Everyone:
+	no sabe que version de ubuntu descargar
+17:15:00 From Vladimir Ramirez to Everyone:
+	quizas deberias especificar con que imagen trabajar
+17:15:04 From Luis Serret to Everyone:
+	command: ["sleep", "infinity"]
+17:15:34 From Edgar Olivos to Everyone:
+	Tiene algo que ver que necesitas darlo de alta como interactivo
+17:20:53 From Andrés Alfaro to Everyone:
+	Solo un volumen para todos los conenedores?
+17:21:17 From Carlos Rogel Hurtado to Everyone:
+	volumenes funcionan entre pods o volumenes entre contenedores
+17:22:46 From Nikolas to Everyone:
+	Si el Pod es esfimero al morir la instancia perdería los datos persistidos en el volumen?
+17:23:56 From Richard Gil to Everyone:
+	Replying to "https://drive.google..."
+	
+	este link es del mismo contenido que tenemos en codigofacilito???
+17:24:08 From Carlos Rogel Hurtado to Everyone:
+	Reacted to "https://drive.google..." with 👍
+17:24:09 From Fernando GP to Everyone:
+	https://kubernetes.io/docs/concepts/storage/volumes/
+17:24:26 From Felipe González S to Everyone:
+	add ✅
+17:24:32 From Nikolas to Everyone:
+	osea que para persistir data como debemos enlazar con un motor de BD
+17:24:36 From Ivan Almendra to Everyone:
+	pero los volúmenes no es para que persistan los datos?
+17:24:38 From Nikolas to Everyone:
+	gracias Fer
+17:25:02 From Luis Serret to Everyone:
+	Replying to "pero los volúmenes n..."
+	
+	Un volumen en Kubernetes es un recurso que permite almacenar datos de forma persistente y compartirlos entre varios contenedores dentro de un Pod.
+17:26:32 From Luis Serret to Everyone:
+	Replying to "pero los volúmenes n..."
+	
+	Si, para persistir los datos se utiliza los pvc
+17:26:34 From Luis Serret to Everyone:
+	Replying to "pero los volúmenes n..."
+	
+	https://kubernetes.io/docs/concepts/storage/persistent-volumes/
+17:26:39 From Ivan Almendra to Everyone:
+	Reacted to "https://kubernetes.i..." with 👏
+17:26:48 From Edgar Olivos to Everyone:
+	ese volume creado de que tamano es? No veo que se definiera un tamano del volumen
+17:28:12 From Vladimir Ramirez to Everyone:
+	/root
+17:28:28 From Nikolas to Everyone:
+	Disculpas Fernando me referia a datos de servicios como Gogs, Verdaccio, Gitea que necesita almacenar datos en un volumen externo te adjunto el link de la imagen
+17:28:32 From Nikolas to Everyone:
+	https://hub.docker.com/layers/gogs/gogs/0.11.66/images/sha256-54a063c8920b77d550c53169259ef5b1912ce57245d96c101122a36e453dc60f
+17:28:38 From Luis Serret to Everyone:
+	Replying to "ese volume creado de..."
+	
+	Un volumen emptyDir en Kubernetes es un tipo de volumen que se utiliza para almacenar datos de forma temporal y compartida entre los contenedores de un mismo Pod. Este tipo de volumen se crea cuando se inicia un Pod y se elimina cuando el Pod se detiene o se elimina.
+17:30:49 From Agustin Quiroga to Everyone:
+	Profe no entiendo, cuando pone mounthpaths: eso lo crea dentro del poder ?
+17:31:00 From Agustin Quiroga to Everyone:
+	O esta en el cluster fuera del pod
+17:31:35 From Agustin Quiroga to Everyone:
+	Haa abien bien
+17:31:41 From Agustin Quiroga to Everyone:
+	Esta a nivel pod no contenedor
+17:31:54 From Agustin Quiroga to Everyone:
+	genial!
+17:32:12 From Agustin Quiroga to Everyone:
+	Con eso a nivel pod se busca que todos los contenedores accedan a ese volumen
+17:32:17 From Gonzalo Mahserdjian to Everyone:
+	y si se pisan las rutas?
+17:32:19 From Agustin Quiroga to Everyone:
+	Para que sea como "multiacceso"
+17:32:25 From Gonzalo Mahserdjian to Everyone:
+	del mounthPath
+17:32:35 From Gonzalo Mahserdjian to Everyone:
+	si ahi
+17:32:46 From Hader Mendez to Everyone:
+	Replying to "y si se pisan las ru..."
+	
+	son contendedores diferentes
+17:33:05 From Marco Grijalva to Everyone:
+	Un volume definido como host path en lugar de emptyDir en donde se almacena, o como accedo a la info?
+17:33:18 From Gonzalo Mahserdjian to Everyone:
+	o sea en el pod el volumen se guarda en directorio diferente para cada contenedor ?
+17:33:20 From Vladimir Ramirez to Everyone:
+	al momento de mapear un volumen, se hace igual que en docker?
+17:37:10 From Paula Balza to Everyone:
+	dos espacios adelante del local?
+17:37:17 From nicolas camaño to Everyone:
+	si por ejemplo tenemos un master y dos nodos y hacemos un deployment con volumen, en cual de los nodos se crea el volumen?
+17:37:21 From Agustin Quiroga to Everyone:
+	El - en name va ?
+17:37:48 From Agustin Quiroga to Everyone:
+	👍
+17:38:04 From Nikolas to Everyone:
+	Puede ser que el guion en los .yml se toma como un tab?
+17:38:05 From Luis Serret to Everyone:
+	Replying to "si por ejemplo tenem..."
+	
+	El que tenga mas recursos disponibles
+17:38:15 From nicolas camaño to Everyone:
+	ahh perfectooo!!!
+17:38:33 From nicolas camaño to Everyone:
+	gracias!!!
+17:38:54 From Paula Balza to Everyone:
+	Hola Fernando hay alguna página con ejercicios básicos que recomendas para practiar todos estos conceptos y hacer el troubleshooting?
+17:39:20 From Paula Balza to Everyone:
+	como el primer ejercicio que mostratse
+17:39:40 From Gonzalo Mahserdjian to Everyone:
+	Hola Fernando hay alguna página con ejercicios básicos que recomendas para practiar todos estos conceptos y hacer el troubleshooting?
+	en killerkoda hay
+17:40:05 From Paula Balza to Everyone:
+	okey yo decia ejercicios como docker, en donde nos piden algo y lo haces
+17:40:18 From Paula Balza to Everyone:
+	como los que paso rox
+17:40:19 From Luis Serret to Everyone:
+	Replying to "Hola Fernando hay al..."
+	
+	De igual forma en la documentación de Kubernetes, te da teoría y un ejemplo en yaml de acuerdo a lo que quieras buscar, pods, deployments, replicaste, confirmar, secrets, etc
+17:40:20 From Gonzalo Mahserdjian to Everyone:
+	si, similar
+17:40:20 From Luis Serret to Everyone:
+	Replying to "Hola Fernando hay al..."
+	
+	https://kubernetes.io/docs/tasks/configure-pod-container/configure-volume-storage/
+17:40:30 From Gonzalo Mahserdjian to Everyone:
+	te da 60 min
+17:41:59 From Paula Balza to Everyone:
+	Se ha reaccionado a "De igual forma en ..." con 👏
+17:42:22 From Gonzalo Mahserdjian to Everyone:
+	en el caso de deployments que tienen bases de datos (postgres o MySQL por ejemplo), ahí no se puede utilizar replicas no? a nivel cluster digo, capaz que a nivel del motor de esa base de datos si?
+17:42:37 From Alex Serret to Everyone:
+	Reacted to "De igual forma en la..." with 👏
+17:44:03 From Ivan Almendra to Everyone:
+	disculpa, servicios externo como que?
+17:44:25 From Luis Serret to Everyone:
+	Los PVC
+17:44:26 From Gonzalo Mahserdjian to Everyone:
+	o sea que puede estar en otro servidor Linux de la red si o hacemos local, ssi entiendo lo que dices, mas que nada por el tema de los backups, si se muere el pod es un problema
+17:44:33 From Luis Serret to Everyone:
+	https://kubernetes.io/docs/concepts/storage/persistent-volumes/
+17:44:58 From Paul Rocha to Everyone:
+	las db relacionales no suelen escalar horizontalmente en el cluster por lo general se usan servicios como RDS
+17:45:40 From Ivan Almendra to Everyone:
+	ahh ok entonces, gracias
+17:45:46 From Anderson Llanos to Everyone:
+	Por ejemplo Datastore en google
+17:45:57 From jorgeaparicio to Everyone:
+	Nos podrás dar un ejemplo de una aplicacion conectada a una base de datos?
+17:46:56 From Gonzalo Mahserdjian to Everyone:
+	Nos podrás dar un ejemplo de una aplicacion conectada a una base de datos?
+	está el del trabajo final, el 2, pero volvemos a este ejemplo que dio recién Fernando, conecta a un motor externo por fuera del contenedor sea Docker o k8s
+17:47:45 From Nikolas to Everyone:
+	Se podría decir que k8s esta orientado al manejo de replica de apps como servicios pero no asi para persistencia de datos de los mismos
+17:52:32 From Luis Serret to Everyone:
+	ConfigMap se utiliza para almacenar datos de configuración no sensibles, como variables de entorno, archivos de configuración o cualquier otro dato que necesite ser consumido por una aplicación.
+	Secret se utiliza para almacenar datos sensibles, como contraseñas, tokens de acceso, claves SSH u otra información confidencial que no debería exponerse directamente en la configuración de la aplicación.
+17:56:50 From Marco Grijalva to Everyone:
+	El type opaque a que se refiere?
+17:57:19 From Diego Vidal Caro to Everyone:
+	un encriptador
+17:57:28 From Edgar Olivos to Everyone:
+	Replying to "El type opaque a que..."
+	
+	Es para la variable de entorno secret.
+17:59:21 From Carlos Rogel Hurtado to Everyone:
+	igual se pueden usar secrets guardados en servicios como el de AWS secrets manager?
+18:00:15 From Luis Serret to Everyone:
+	Replying to "igual se pueden usar..."
+	
+	Si
+18:00:31 From Gonzalo Mahserdjian to Everyone:
+	igual se pueden usar secrets guardados en servicios como el de AWS secrets manager?
+	también los podes obtener por ssh desde algún servidor seguro
+18:00:36 From Carlos Rogel Hurtado to Everyone:
+	Replying to "igual se pueden usar..."
+	
+	muchas gracias :)
+18:01:15 From Cristian Arbelaez to Everyone:
+	Linea 21
+18:01:28 From Cristian Arbelaez to Everyone:
+	Indentado
+18:01:36 From Gonzalo Mahserdjian to Everyone:
+	algún guion debe ser
+18:01:58 From Luis Serret to Everyone:
+	Replying to "igual se pueden usar..."
+	
+	https://docs.aws.amazon.com/es_es/secretsmanager/latest/userguide/integrating_csi_driver.html
+18:02:11 From Cristian Arbelaez to Everyone:
+	👍
+18:02:39 From Marco Grijalva to Everyone:
+	Cuál sería la mejor práctica para guardar esos secrets?
+18:03:26 From Gonzalo Mahserdjian to Everyone:
+	Roxs mencionó el uso de una librería de mozillam, soap, te sabes algún ejemplo de uso?
+18:03:31 From Marco Grijalva to Everyone:
+	Si, subirlos a u s3, ssh, git etc
+18:03:33 From Gonzalo Mahserdjian to Everyone:
+	para los screts
+18:03:48 From Carlos Rogel Hurtado to Everyone:
+	Reacted to "https://docs.aws.ama..." with ❤️
+18:04:07 From Andrés to Everyone:
+	Pero no me parece que sea mucho mas seguro el secret que los configMap. En todo caso que la aplicación los tome de un servicio como AWS o Azure, no?
+18:04:23 From Luis Serret to Everyone:
+	Replying to "Cuál sería la mejor ..."
+	
+	Regularmente se utiliza un servicio externo en este caso nosotros utilizamos Secret Manager y todos los secretos se almacenan en aws y los pods los puede extraer desde aws
+18:04:36 From Andrés to Everyone:
+	Igual lo puedes ver en la consola
+18:04:39 From Gonzalo Mahserdjian to Everyone:
+	es sops no soap, perdon
+18:05:06 From Gonzalo Mahserdjian to Everyone:
+	Mozilla SOPS
+18:05:23 From Marco Grijalva to Everyone:
+	Reacted to "Regularmente se util..." with 🙌
+18:05:50 From Yakin Dario Mendez Muñoz to Everyone:
+	Se ha reaccionado a "https://docs.aws.ama..." con ❤️
+18:06:30 From Carlos Rogel Hurtado to Everyone:
+	ya se vio conjobs y jobs?
+18:08:37 From Gonzalo Mahserdjian to Everyone:
+	ya se vio conjobs y jobs?
+	no en ejemplos
+18:16:16 From Edgar Olivos to Everyone:
+	Es como un validador del container, antes de crearlo ?
+18:16:35 From Daniel Chavez to Everyone:
+	si
+18:16:40 From Edison Maza E to Everyone:
+	si por favor
+18:16:44 From Diego Vidal Caro to Everyone:
+	si
+18:16:46 From Ana to Everyone:
+	si
+18:16:56 From Paul Rocha to Everyone:
+	es para delay al contenedor principal
+18:17:03 From Andrés to Everyone:
+	Podría ser parecido al depends on del docker compose?
+18:17:37 From Luis Serret to Everyone:
+	es un contenedor que se ejecuta antes de que otros contenedores en el mismo pod comiencen su ejecución principal y suu propósito principal es realizar tareas de inicialización o preparación necesarias antes de que los contenedores principales del pod puedan funcionar correctamente.
+18:17:49 From Luis Serret to Everyone:
+	Como lo comento el profe
+18:26:27 From Edgar Olivos to Everyone:
+	Entonces todos los pod que muestran Init, es por que traen InitContainer, cierto?
+18:26:40 From Edgar Olivos to Everyone:
+	Si
+18:27:39 From Luis Serret to Everyone:
+	Igual creo que con un describe muestra los eventos y ahi se ve cuando corre primero un contenedor y después comienza a correr el segundo
+18:28:17 From Luis Serret to Everyone:
+	Al ultimo en los eventos
+18:29:14 From Daniel Chavez to Everyone:
+	no me quedo claro el tema del secret cuando lo bajas del register del docker haciendo pull, donde le pones el usuario y password?
+18:29:41 From Daniel Chavez to Everyone:
+	si
+18:31:09 From Daniel Chavez to Everyone:
+	pero eso regcred donde se define?
+18:31:45 From Marco Grijalva to Everyone:
+	Ya lo ejecutó en la terminal
+18:31:55 From Daniel Chavez to Everyone:
+	ya vi
+18:32:37 From Daniel Chavez to Everyone:
+	gracias
+18:34:08 From Diego Vidal Caro to Everyone:
+	Vas hacer un ejemplo con alguna aplicación
+18:34:43 From Cristian Arbelaez to Everyone:
+	COmo un HA?
+18:36:27 From Carlos Rogel Hurtado to Everyone:
+	y loadbalancer es diferente a ELB de AWS?
+18:39:41 From Carlos Rogel Hurtado to Everyone:
+	cual es la diferencia entre nodeport y un endpoint?
+18:39:53 From Mairenis to Everyone:
+	los ingress son importantes y el algo que se debe conocer
+18:40:57 From Carlos Rogel Hurtado to Everyone:
+	endpoint que generas una url para consumir el servicio. O son lo mismo, pero diferente nombre :)
+18:46:40 From Marco Grijalva to Everyone:
+	Esa ip es estática?
+18:47:27 From Carlos Rogel Hurtado to Everyone:
+	para que se utilizan herramientas como Kong API?
+18:47:44 From Mairenis to Everyone:
+	si no trabajas con IP que usas?
+18:47:47 From Marco Grijalva to Everyone:
+	Es un api gateway
+18:48:13 From Mairenis to Everyone:
+	ycomo generas el dominio autogenerado?
+18:48:13 From Luis Serret to Everyone:
+	Replying to "Esa ip es estática?"
+	
+	las direcciones IP de los Pods en Kubernetes no son estáticas. Cuando se elimina un Pod y se crea uno nuevo en su lugar, es posible que el nuevo Pod reciba una dirección IP diferente.
+18:48:28 From Marco Grijalva to Everyone:
+	Reacted to "las direcciones IP d..." with 👍
+18:48:50 From Mairenis to Everyone:
+	ah osea creas un servicio
+18:49:36 From Marco Grijalva to Everyone:
+	Me perdí, cómo sacaste esa url del service?
+18:49:39 From Luis Serret to Everyone:
+	La sintaxis es nombre-del-servicio.nombredel-name-space.svc.cluster.local
+18:49:47 From Carlos Rogel Hurtado to Everyone:
+	Replying to "Esa ip es estática?"
+	
+	no se puede configurar para que sea estatica, verdad?   En caso de que ese pod necesite acceder a un servicio mediante whitelist ip
+18:50:12 From Luis Serret to Everyone:
+	El .default es por que el pod o el servicio esta en el name space default
+18:50:15 From Felipe González S to Everyone:
+	add ✅
+18:50:21 From Carlos Rogel Hurtado to Everyone:
+	Reacted to "La sintaxis es nombr..." with ✅
+18:50:25 From Luis Serret to Everyone:
+	Si tu namespace se llama backend cambias el default por backend
+18:50:25 From Marco Grijalva to Everyone:
+	Reacted to "La sintaxis es nombr..." with ✅
+18:50:49 From Enrique Cocom Canul to Everyone:
+	Reacted to "La sintaxis es nombr..." with ✅
+18:50:58 From Andrés to Everyone:
+	Esa forma de acceder con el dominio autogenerado es solo a nivel de Pod?
+18:51:40 From Luis Serret to Everyone:
+	Regularmente se usa a nivel cluster, y se utiliza para tener una conexión mas rápida entre microservicios cuando es necesaria una conexión entre esos microservicios
+18:52:42 From Ivan Almendra to Everyone:
+	Replying to "Regularmente se usa ..."
+	
+	Un microservicio se puede conectar a otro microservicio?
+18:52:56 From Luis Serret to Everyone:
+	Replying to "Regularmente se usa ..."
+	
+	si
+18:53:00 From Ivan Almendra to Everyone:
+	Reacted to "si" with 👍
+18:53:16 From Carlos Rogel Hurtado to Everyone:
+	entonces podemos conectar un pod con servicios en internet?
+18:53:52 From Carlos Rogel Hurtado to Everyone:
+	Replying to "entonces podemos con..."
+	
+	tipo snowflake
+18:54:26 From Ivan Almendra to Everyone:
+	ósea que si quiero traer datos de internet como por ejemplo precios de dólar o otra cosa tendría que usar nodeport ?
+18:54:44 From nicolas camaño to Everyone:
+	si exponemos una app a internet, que ip es la que se publicaria en caso de tener mas nodos? o
+18:54:49 From Ivan Almendra to Everyone:
+	ahh entonces había entendido otra cosa, gracias
+18:55:45 From Luis Serret to Everyone:
+	Replying to "si exponemos una app..."
+	
+	Lo mejor es utilizar un balanceador y regularmente se utiliza NGINX y se adjunta un dominio
+18:55:53 From nicolas camaño to Everyone:
+	perfecto, osea siempre le pegamos al loadbalancer y este lo gestiona. Muchas gracias!!!
+18:57:10 From Paul Rocha to Everyone:
+	Respondiendo a "si exponemos una a..."
+	
+	oiste de gateway de istio?
+18:57:33 From Miguel Ruiz to Everyone:
+	Como podemos  implementas todo esto en AWS o en cualquier infra cloud?
+18:58:34 From Carlos Rogel Hurtado to Everyone:
+	A que nos referimos con deployments en k8s? no se hace el deploy de un pod?
+18:59:00 From Ivan Almendra to Everyone:
+	en el drive dejas el código?
+19:00:05 From Luis Serret to Everyone:
+	Replying to "si exponemos una app..."
+	
+	Istio es un service mesh, se puede utilizar para gestionar de trafico y obtener observabilidad y eso después lo puedes mostrar en un dashboard de garfada
+19:00:14 From Luis Serret to Everyone:
+	Replying to "si exponemos una app..."
+	
+	*Grafana
+19:01:20 From Luis Serret to Everyone:
+	Replying to "A que nos referimos ..."
+	
+	Como lo comento el profe el pod es solo la unidad mas pequeña  que tenemos en Kubernetes, arriba de los pods tenemos mas tipos  de cargas de trabajo dependiendo tu necesidad
+19:01:30 From Luis Serret to Everyone:
+	Replying to "A que nos referimos ..."
+	
+	https://kubernetes.io/es/docs/concepts/workloads/controllers/
+19:02:07 From Carlos Rogel Hurtado to Everyone:
+	Reacted to "Como lo comento el p..." with 👍
+19:03:31 From Marco Grijalva to Everyone:
+	Faltó ingress, también es importante
+19:05:07 From Cristian Arbelaez to Everyone:
+	Super
+19:05:58 From Carlos Rogel Hurtado to Everyone:
+	el helm para que se usa?
+19:06:12 From Andrés to Everyone:
+	Así tengas un solo contenedor ejecutando una aplicación, si quieres que sea accesible desde internet, es obligatorio el load balancer
+19:06:23 From Jorge to Everyone:
+	Cloud Guru, la competencia jaja
+19:06:30 From Cristian Arbelaez to Everyone:
+	Muchas GRacias… Excelente clase
+19:06:43 From Luis Serret to Everyone:
+	Replying to "el helm para que se ..."
+	
+	es un gestor de paquetes para Kubernetes que facilita la gestión, instalación y actualización de aplicaciones complejas en entornos de Kubernetes
+19:07:34 From nicolas camaño to Everyone:
+	si, es un poco alejado de lo de hoy. pero por ejemplo cuando utilicemos otras herramientas que se comentaron en el curso. ejemplo jenkins, zabbix, gitlab, etc etc. estas herramientas es recomendable instalarlas en kubernetes o se recomienda instalarlas aparte?
+19:07:41 From Paul Rocha to Everyone:
+	thxs
+19:07:53 From Carlos Rogel Hurtado to Everyone:
+	muchas gracias. Un curso de A-Z de k8s jaja
+19:08:13 From Cristian Echeverria to Everyone:
+	Gracias Fernando
+19:08:27 From nicolas camaño to Everyone:
+	ah perfecto!!!
+19:08:30 From nicolas camaño to Everyone:
+	gracias!!!
+19:08:37 From nicolas camaño to Everyone:
+	excelente clase
+19:08:40 From Pedro Diaz to Everyone:
+	gracias!
+19:08:44 From Alfonso Calderón to Everyone:
+	Hasta pronto
+19:08:46 From Cristian Arbelaez to Everyone:
+	👍
+19:08:49 From Enrique Cocom Canul to Everyone:
+	Gracias
+19:09:05 From Paul Rocha to Everyone:
+	buen resumen de kubernetes . gracias
+19:09:21 From Vladimir Ramirez to Everyone:
+	muchas gracias Fernando
+19:09:26 From Vladimir Ramirez to Everyone:
+	buena clase
+19:09:33 From Luis Serret to Everyone:
+	Un gusto
+19:09:34 From EdduarSerrano to Everyone:
+	+
+19:09:38 From Raúl Martínez to Everyone:
+	👍
+19:09:39 From Richard Gil to Everyone:
+	muchas muchas gracias

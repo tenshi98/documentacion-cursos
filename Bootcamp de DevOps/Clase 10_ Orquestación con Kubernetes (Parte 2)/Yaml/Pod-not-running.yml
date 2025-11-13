@@ -1,0 +1,14 @@
+# Si un contenedor no se inicia correctamente, se mostrará en estado "Not Running" en lugar de "Running".
+# En este ejemplo, el contenedor no se inicia correctamente el contendor no tiene ningún servicio en ejecución.
+# Al agregar tty: true, el contenedor no se cerrará inmediatamente después de la ejecución.
+# k apply -f Pod-not-running.yml
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pod-not-running
+spec:
+  containers:
+  - name: container-not-running
+    image: ubuntu
+    # tty: true

@@ -1,0 +1,807 @@
+17:00:42 From Cristian Arbelaez to Everyone:
+	Hola Jani
+17:00:44 From Anibal Castro Ruiz to Everyone:
+	buenas noches a todos!
+17:00:51 From Nikolas to Everyone:
+	Buenas noches a todos!
+17:01:05 From Edgar Priego to Everyone:
+	hola
+17:01:10 From Edgar Priego to Everyone:
+	saludos
+17:01:14 From Alejandro Murcia to Everyone:
+	Buenas buenas
+17:01:30 From LatinCrack MasterByte to Everyone:
+	Jani, buenas tardes...
+17:02:26 From leslie redlich to Everyone:
+	no se escucha
+17:02:35 From leslie redlich to Everyone:
+	ahí si jajaj
+17:02:37 From leslie redlich to Everyone:
+	gracias
+17:03:43 From Renzo Franchetto to Everyone:
+	Holo
+17:04:01 From Agustin Quiroga to Everyone:
+	Hola hola
+17:04:28 From Renzo Franchetto to Everyone:
+	Mañana se sale?
+17:04:57 From ROSSANA SUAREZ to Everyone:
+	Renzo tienes desafio que hacer 🙌 jaja
+17:05:03 From Renzo Franchetto to Everyone:
+	hacemos invocacion en Cordoba/argentina : )
+17:05:16 From Renzo Franchetto to Everyone:
+	Replying to "Renzo tienes desafio..."
+	
+	ahh cierto : ( jajaj
+17:05:41 From Alexis isla to Everyone:
+	Mañana se sale a hacer desafíos jajajaja
+17:07:29 From Fernando Emanuel Lira to Everyone:
+	todo OK
+17:08:05 From Windel Cruz to Everyone:
+	Hasta cuando tendremos este acompañamiento o esta posibilidad de preguntarte Ross?
+17:08:18 From Windel Cruz to Everyone:
+	O no hay fecha limite?
+17:10:07 From ROSSANA SUAREZ to Everyone:
+	https://gitlab.com/training-devops-cf/avatares-devops
+17:11:51 From ROSSANA SUAREZ to Everyone:
+	https://gitlab.com/training-devops-cf/todo-list-devops
+17:11:52 From Chris Mher to Everyone:
+	Yarn se puede utilizar?
+17:18:16 From Jorge to Everyone:
+	Hay capa gratuita para EKS ?
+17:19:01 From Paul Rocha to Everyone:
+	t2.micro no consume mucho en eks
+17:19:08 From david rolando aguirre to Everyone:
+	azure y gcp te dan créditos que puedes usar para AKS y GKE
+17:20:12 From Humberto Santos to Everyone:
+	las entregas pueden ser constantes?
+17:21:17 From bgonzalez to Everyone:
+	los ambientes pueden ser ns de k8s?
+17:21:46 From Cristian Gaona to Everyone:
+	Se puede usar AWS ECS?
+17:21:53 From Byron to Everyone:
+	Puedes repetir con que podemos trabajar con k8s?
+17:22:09 From Feli Magno to Everyone:
+	se puede utilizar yarn?
+17:22:21 From Pablo to Everyone:
+	Est eproyecto lo iremos haciendo clase a clase o es mas para hacerlo solo en casa?
+17:22:43 From Humberto Santos to Everyone:
+	Reacted to "Est eproyecto lo ire..." with 👍
+17:22:49 From Raúl Martínez to Everyone:
+	Reacted to "Est eproyecto lo i..." with 👍
+17:22:53 From Jorge to Everyone:
+	Replying to "se puede utilizar ya..."
+	
+	dijo con npm
+17:22:59 From bgonzalez to Everyone:
+	minikube
+17:23:05 From Chris Mher to Everyone:
+	Replying to "se puede utilizar ya..."
+	
+	npm sera
+17:23:09 From Gonzalo Mahserdjian to Everyone:
+	podemos usar Jenkins o es mejor con GitHub actions?
+17:23:09 From Byron to Everyone:
+	Reacted to "minikube" with 👍
+17:23:13 From Windel Cruz to Everyone:
+	Hasta cuando tendremos este acompañamiento o esta posibilidad de preguntarte Ross?
+17:23:33 From Renzo Franchetto to Everyone:
+	Replying to "Hasta cuando tendrem..."
+	
+	de por vida o no?
+17:23:43 From Pablo to Everyone:
+	de los 3 proyectos hay que hacer uno solo o los 3?
+17:23:48 From Chris Mher to Everyone:
+	Reacted to "Est eproyecto lo ire..." with 👍
+17:23:49 From leslie redlich to Everyone:
+	donde contacto al equipo de ayuda de código facilito para el proyecto? en caso de dudas :)
+17:24:00 From Cristhian Castro to Everyone:
+	quien está interesado en el proyecto 2 con nodejs para que nos unamos
+17:24:02 From Paul Rocha to Everyone:
+	argo CD?
+17:24:07 From Juan Manuel de Palacios to Everyone:
+	como hago? chatgpt
+17:24:08 From Jorge to Everyone:
+	Replying to "de los 3 proyectos h..."
+	
+	requerido 1, opcional los demás
+17:24:16 From Pablo to Everyone:
+	Replying to "de los 3 proyectos h..."
+	
+	gracias!
+17:24:20 From Humberto Santos to Everyone:
+	donde te podemos preguntar?
+17:24:32 From Cristian Gaona to Everyone:
+	Este proyecto lo tenemos que defender mediante una exposición o solo debemos agregar todo lo que realicemos en el repositorio?
+17:24:44 From John to Everyone:
+	Cuentan monolíticos?
+17:25:28 From Jani to Everyone:
+	Replying to "donde contacto al eq..."
+	
+	Si en caso tienes problemas para subir el proyecto o necesitas apoyo en cuestión de logística puedes comunicarte con nosotros por katty@codigofacilito.com o jani@codigofacilito.com. Si son dudas técnicas te recomendamos el grupo de Telegram 😄
+17:25:35 From Paul Rocha to Everyone:
+	monolitos contenerizados ?
+17:25:37 From Alejandro Avila to Everyone:
+	Tiene que ser serio o puede ser super friki?
+17:26:01 From Renzo Franchetto to Everyone:
+	a ser youtuber se a dicho
+17:26:45 From Raúl Martínez to Everyone:
+	quien está interesado en el proyecto 2 con nodejs para que nos unamos
+	yo estoy interesado 🤔
+17:26:49 From Chris Mher to Everyone:
+	DB a elección? por ej mongo?
+17:26:53 From Daniel Chavez to Everyone:
+	los ambientes seria en nuestra maquina virtual o en alguna nube?
+17:27:07 From Cristhian Castro to Everyone:
+	Replying to "quien está interesad..."
+	
+	Dale, dame tu telegram o ya te doy el mío
+17:27:28 From Rafael Bejarano to Everyone:
+	a quien le falta uno ?
+17:27:32 From Cristhian Castro to Everyone:
+	Replying to "quien está interesad..."
+	
+	@cristhian9507
+17:27:53 From Cristian Arbelaez to Everyone:
+	Podemos usar GH Actions?
+17:28:12 From Felipe González S to Everyone:
+	vale minikube en local como ambiente productivo?
+17:28:19 From Alejandro Avila to Everyone:
+	De hasta cuantos integrantes puede ser un grupo?
+17:28:25 From Carlos Fernández to Everyone:
+	Alguien que le falte uno? para hacer equipo,  aqui disponible y fuerte en gestión y documentación
+17:28:25 From Renzo Franchetto to Everyone:
+	3
+17:28:30 From Alfonso to Everyone:
+	El proyecto cabe en la capa gratuita de aws? Pregunto por kubernates que aun no lo hemos visto
+17:28:32 From Jani to Everyone:
+	Replying to "De hasta cuantos int..."
+	
+	3 integrantes :)
+17:28:38 From david rolando aguirre to Everyone:
+	Podemos usar Helm?
+17:28:47 From Ignacio Mateo Alvarez to Everyone:
+	podría basarme en el backend de Python pero sustituyendo por java y la BD sea postgreSQL?, lo pregunto porque es en lo que trabajo
+17:28:59 From Paula Balza to Everyone:
+	Hola! yo me puedo sumar a un grupo
+17:29:05 From Paul Rocha to Everyone:
+	busco dev soy mas de ops xd
+17:29:13 From Renzo Franchetto to Everyone:
+	Replying to "podría basarme en el..."
+	
+	ahhh sos de los mios entonces : )
+17:29:35 From Cristian Gaona to Everyone:
+	Replying to "quien está interesad..."
+	
+	Puedo unirme a este grupo?
+17:29:41 From Gonzalo Mahserdjian to Everyone:
+	en azure se pueden stoppear, los de aws tienen autorestart
+17:29:49 From freddy santacruz to Everyone:
+	Replying to "Hola! yo me puedo su..."
+	
+	podemos hacer grupo
+17:29:50 From Gonzalo Mahserdjian to Everyone:
+	los nodos
+17:29:59 From Carlos Fernández to Everyone:
+	Replying to "Hola! yo me puedo su..."
+	
+	me uno
+17:30:05 From Anibal Castro Ruiz to Everyone:
+	quien esta interesado en unirse a un grupo? Ya somos dos personas
+17:30:10 From Alejandro Avila to Everyone:
+	Replying to "busco dev soy mas de..."
+	
+	Soy dev
+17:30:14 From Abel Fucili to Everyone:
+	me gustaría unirme a un grupo de back preferente de java monolitos o microservicios, pero voy atrasado en el curso
+17:30:22 From Jorge to Everyone:
+	Replying to "podría basarme en el..."
+	
+	Hacemos grupo ?
+17:30:24 From Renzo Franchetto to Everyone:
+	ahhh entonces en ninguna cloud puedo armar un cluster gratuito...
+17:30:26 From Daniel Chavez to Everyone:
+	yo estoy disponible para el Proyecto 2 que me intereso si le interesa a alguien hacer un equipo aqui estoy me contacta
+17:30:27 From Andrés to Everyone:
+	Replying to "busco dev soy mas de..."
+	
+	igual yo
+17:30:36 From Rafael Bejarano to Everyone:
+	estoy libre
+17:30:47 From Cristian Arbelaez to Everyone:
+	Podemos usar GH Actions?
+17:31:03 From Cristian Arbelaez to Everyone:
+	Reacted to "Podemos usar GH Acti..." with 👍
+17:31:12 From Marco Grijalva to Everyone:
+	Tienes algún template para documentar o como sería esa docu?
+17:31:13 From Jorge to Everyone:
+	Replying to "podría basarme en el..."
+	
+	@jgutig en telegram
+17:31:14 From Esteban Gonzalez-466572 to Everyone:
+	Replying to "quien está interesad..."
+	
+	quien está interesado en el proyecto 2 con nodejs para que nos unamos	yo estoy interesado 🤔	yo estoy interesado proyecto 2..
+17:31:17 From Humberto Santos to Everyone:
+	pipeline con python wow
+17:31:22 From david rolando aguirre to Everyone:
+	Es necesario exponer la aplicación? usar un dominio, route 53, etc?
+17:31:27 From Renzo Franchetto to Everyone:
+	apa, me gusto lo del pipeline con python...lo voy a ver
+17:31:40 From Raúl Martínez to Everyone:
+	Reacted to "Podemos usar GH Ac..." with 👍
+17:32:00 From Renzo Franchetto to Everyone:
+	me imagino que seria como un try catch quizas
+17:32:05 From Paul Rocha to Everyone:
+	Replying to "busco dev soy mas de..."
+	
+	dejen su nick
+17:32:06 From Gonzalo Mahserdjian to Everyone:
+	yo voy a empezar con el proyecto 1, si llego sumo el otro en los pipelines
+17:32:32 From Daniel Chavez to Everyone:
+	Replying to "quien está interesad..."
+	
+	si quieres nos Podemos unir me intersa el Proyecto 2
+17:32:32 From david rolando aguirre to Everyone:
+	Yo tengo un dominio jajajaja.
+17:32:37 From Paula Balza to Everyone:
+	Respondiendo a "busco dev soy mas ..."
+	
+	bueno mi telegram es @paulabalza
+17:32:38 From Fernando Emanuel Lira to Everyone:
+	Alguna página para obtener ideas sobre proyectos a realizar? además de los que ya diste de ejemplo?
+17:32:54 From Paula Balza to Everyone:
+	Respondiendo a "Hola! yo me puedo ..."
+	
+	bueno mi telegram es @paulabalza
+17:33:11 From Chris Mher to Everyone:
+	COMPRO
+17:33:12 From Renzo Franchetto to Everyone:
+	yo quiero
+17:33:14 From Humberto Santos to Everyone:
+	no vi los proyectos
+17:33:23 From Anibal Castro Ruiz to Everyone:
+	Somos dos personas, quien este interesado en sumarse para realizar el desafio 2 es bienvenido
+17:33:34 From Esteban Gonzalez-466572 to Everyone:
+	aquí disponible para proyecto 2.. @egon27Gonza
+17:33:40 From Andrés to Everyone:
+	Replying to "busco dev soy mas de..."
+	
+	@Andlo83
+17:33:47 From Carlos Fernández to Everyone:
+	Algún dev que necesite equipo, soy mas ops, voy un poco atrasado en las clases pero ya me estoy poniendo al día.
+17:33:51 From Anibal Castro Ruiz to Everyone:
+	Replying to "aquí disponible para..."
+	
+	dale
+17:33:54 From Feli Magno to Everyone:
+	Ross podrías mostrar los prints de ambos proyectos nuevamente?
+17:33:57 From Esteban Gonzalez-466572 to Everyone:
+	Replying to "Somos dos personas, ..."
+	
+	Somos dos personas, quien este interesado en sumarse para realizar el desafio 2 es bienvenido	@egon27Gonza telegram
+17:34:00 From Jani to Everyone:
+	Replying to "no vi los proyectos"
+	
+	Las diapositivas puedes encontrarlas aquí: https://drive.google.com/drive/folders/1BlcAxsKPHJswzZEwheONseN4d9MjKwGL?usp=sharing
+17:34:11 From Anibal Castro Ruiz to Everyone:
+	Replying to "Somos dos personas, ..."
+	
+	ahí te escribo
+17:34:16 From Alejandro Avila to Everyone:
+	Replying to "busco dev soy mas de..."
+	
+	@AlejandroJavierAvila
+17:34:30 From Vladimir Ramirez to Everyone:
+	Estoy disponible, tengo un servido con VMware disponible y estoy Armando un cluster de kubeAdm
+17:34:32 From Cristhian Castro to Everyone:
+	Replying to "quien está interesad..."
+	
+	@cristhian9507 es mi usuario telegram, ya está Raul, nos falta uno
+17:34:36 From Paul Rocha to Everyone:
+	Replying to "busco dev soy mas de..."
+	
+	ahí les escribo
+17:34:41 From Jorge to Everyone:
+	Replying to "quien está interesad..."
+	
+	@jgutig
+17:34:45 From Jani to Everyone:
+	Replying to "Ross podrías mostrar..."
+	
+	Aquí puedes encontrarlas: https://drive.google.com/drive/folders/1BlcAxsKPHJswzZEwheONseN4d9MjKwGL?usp=sharing
+17:35:01 From Franklin Guevara to Everyone:
+	Replying to "Somos dos personas, ..."
+	
+	hola,  me gustaría unirme a ustedes
+17:35:07 From Franklin Guevara to Everyone:
+	Replying to "Somos dos personas, ..."
+	
+	Soy @tecguevara en telegram.
+17:35:32 From David Gonzalez to Everyone:
+	Replying to "Somos dos personas, ..."
+	
+	@dz893 me uno, quiero darle con todo, tengo un poco de experiencia con contenedores
+17:35:35 From Mairenis to Everyone:
+	Replying to "quien está interesad..."
+	
+	ya estan completes?
+17:36:12 From Enrique Cocom Canul to Everyone:
+	Replying to "quien está interesad..."
+	
+	Me interesa unirme para el proyecto 2 mi telegram @EnriqueCocom
+17:36:33 From Renzo Franchetto to Everyone:
+	no entendi...cuando debes usar ecs y cuando eks?
+17:37:13 From Jorge to Everyone:
+	Replying to "quien está interesad..."
+	
+	crearon el grupo ?
+17:38:14 From Fernando Emanuel Lira to Everyone:
+	Yo soy hiper sysadmin, me gustaría armar grupo con algún programador y alguien que se perciba como dummie en todo estos temas, como para hacer un grupo multidiciplinario
+17:38:18 From Rafael Bejarano to Everyone:
+	estoy libre mi telegram es @Rafaelbejarano (ross
+17:38:43 From david rolando aguirre to Everyone:
+	cuando levantamos ECS con Fargate, de todas maneras se define la cantidad de memoria y CPU a utilizar, Fargate escala en caso nos falte recursos?
+17:38:57 From almendra to Everyone:
+	una consulta, un balanceador de carga se hace a través de un lenguaje de programación o es una herramientas que provee aws o algo por el estilo ?
+17:39:43 From Humberto Santos to Everyone:
+	Replying to "una consulta, un bal..."
+	
+	tengo esa misma duda
+17:40:10 From Felipe González S to Everyone:
+	Con nginx puedes hacerlo
+17:40:10 From Fernando Emanuel Lira to Everyone:
+	Replying to "Yo soy hiper sysadmi..."
+	
+	soy @feremalira en telegram
+17:40:39 From Gonzalo Mahserdjian to Everyone:
+	si lo hacems on premise, es requerido usar traefik?
+17:41:01 From almendra to Everyone:
+	Replying to "una consulta, un bal..."
+	
+	okk, gracias
+17:41:03 From Nikolas to Everyone:
+	Replying to "una consulta, un bal..."
+	
+	https://www.braybaut.dev/posts/traefik-load-balancer-y-reverse-proxy-para-docker/
+17:41:11 From Carlos Rogel Hurtado to Everyone:
+	Reacted to "https://www.braybaut..." with ❤️
+17:41:39 From Carlos Fernández to Everyone:
+	Alguien necesita un integrante para su equipo o empezar a formar uno?		@CarlosFdz11
+17:41:54 From Raúl Orozco to Everyone:
+	Replying to "Yo soy hiper sysadmi..."
+	
+	yo soy dev pero de PHP, 🥲
+17:42:01 From Renzo Franchetto to Everyone:
+	tarea = pod ? )
+17:42:07 From Paula Balza to Everyone:
+	Hola Carlos Fernández
+17:42:24 From Paula Balza to Everyone:
+	con Freddy armamos grupo avisa si te parece sumarte
+17:42:33 From Alejandro Murcia to Everyone:
+	Yo tambien busco grupo
+17:42:38 From Windel Cruz to Everyone:
+	Replying to "Yo soy hiper sysadmi..."
+	
+	Yo sería el dummie
+17:42:39 From Carlos Fernández to Everyone:
+	Ok me sumo
+17:42:42 From Windel Cruz to Everyone:
+	Replying to "Yo soy hiper sysadmi..."
+	
+	Me interesa
+17:42:43 From Mairenis to Everyone:
+	Replying to "Yo soy hiper sysadmi..."
+	
+	yo soy dummie, trabajo con VMware
+17:42:54 From Mairenis to Everyone:
+	Replying to "Yo soy hiper sysadmi..."
+	
+	no se nada de webs y esas cosas
+17:43:04 From Renzo Franchetto to Everyone:
+	que amplio que es el mundo cloud...siento que no me sirvio mucho la cloud quest de aws : (
+17:43:16 From Mairenis to Everyone:
+	Replying to "Yo soy hiper sysadmi..."
+	
+	@Maggi
+17:43:30 From Vladimir Ramirez to Everyone:
+	tiene que ser desplegado solo en las nubes, no puede ser on-prem?
+17:43:44 From Anderson Llanos to Everyone:
+	Soy un Java dev, estoy interesado en tomar el desafio 3, alguien desea unirse? :)
+17:43:46 From Paula Balza to Everyone:
+	Respondiendo a "Ok me sumo"
+	
+	de una pasa user de telegram
+17:44:33 From Carlos Fernández to Everyone:
+	Replying to "Ok me sumo"
+	
+	@CarlosFdz11
+17:45:19 From Vladimir Ramirez to Everyone:
+	tiene que ser desplegado solo en las nubes, no puede ser on-prem? @ROSSANA SUAREZ
+17:45:28 From Carlos Rogel Hurtado to Everyone:
+	Replying to "tiene que ser desple..."
+	
+	x2
+17:45:54 From Carlos Fernández to Everyone:
+	Replying to "Hola! yo me puedo su..."
+	
+	ya mande telegrama a Paula
+17:45:55 From Vladimir Ramirez to Everyone:
+	si tengo un servidor
+17:45:58 From Carlos Rogel Hurtado to Everyone:
+	es individual o en equipo?
+17:46:23 From david rolando aguirre to Everyone:
+	Ahí yo tengo una pregunta que justo me paso:	Si digamos que me piden una infra para desplegar una app que están probando, ya sea en ec2, ecs o donde sea, yo necesito saber masomenos la cantidad de recursos que consumirá para saber que tipo de instancia o cuantos recursos asignar a la infra. ¿Debo decirles que me den ese dato verdad? seria realizando pruebas de carga o de que manera podría saber ese dato?
+17:46:33 From Paul Rocha to Everyone:
+	Replying to "tiene que ser desple..."
+	
+	cluster de kubenetes en onpremise es un poco complicado de ahí que la mayoría en cloud
+17:47:04 From Jani to Everyone:
+	Replying to "es individual o en e..."
+	
+	Opcional, puede ser individual o por equipo, el equipo debe de ser no mayor a 3 integrantes :)
+17:47:19 From Carlos Rogel Hurtado to Everyone:
+	Reacted to "Opcional, puede ser ..." with ❤️
+17:47:33 From Vladimir Ramirez to Everyone:
+	@vladram, estoy disponible
+17:47:36 From Carlos Rogel Hurtado to Everyone:
+	Replying to "es individual o en e..."
+	
+	muchas gracias y la fecha de entrega?
+17:47:39 From Raúl Orozco to Everyone:
+	Replying to "Yo soy hiper sysadmi..."
+	
+	@StarLordGT dummie junior 😭
+17:49:05 From Jani to Everyone:
+	Replying to "es individual o en e..."
+	
+	3 de Junio, los detalles más extensos puedes encontralo aquí: https://drive.google.com/drive/folders/1BlcAxsKPHJswzZEwheONseN4d9MjKwGL?usp=sharing
+17:49:18 From Carlos Rogel Hurtado to Everyone:
+	Reacted to "3 de Junio, los deta..." with ❤️
+17:49:31 From Carlos Rogel Hurtado to Everyone:
+	Replying to "es individual o en e..."
+	
+	muchas gracias :)
+17:50:05 From Richard Gil to Everyone:
+	el ron lo crear mediante el IAM???
+17:50:58 From Franklin Guevara to Everyone:
+	Reacted to "Opcional, puede ser ..." with ❤️
+17:56:01 From freddy santacruz to Everyone:
+	roxx buenas tardes al usar jenkis devemos usar pipeline o se puede  usar un job estilo libre
+17:56:54 From freddy santacruz to Everyone:
+	noooo jajjajaja bueno como dice roxx jajaj tocara aprender jajajaj
+17:57:37 From Alejandro Avila to Everyone:
+	Una pregunta @ROSSANA SUAREZ: Por qué hay lugares donde siguen usando los proyectos libres o tareas comunes si los pipelines son incluso mas fáciles de usar?
+17:57:38 From Chris Mher to Everyone:
+	pedis test antes de realizar CI/CD?
+17:57:44 From leslie redlich to Everyone:
+	lo hecho en aws ahora, se puede hacer con composer y terraform cierto? o es dircto en aws
+17:57:53 From Alejandro Avila to Everyone:
+	Replying to "Una pregunta @ROSSAN..."
+	
+	Hablando de Jenkins
+17:58:31 From Alexis isla to Everyone:
+	Reacted to "3 de Junio, los deta..." with ❤️
+17:58:34 From Alejandro Avila to Everyone:
+	Replying to "Una pregunta @ROSSAN..."
+	
+	En los proyectos que me ha tocado trabajar con Jenkins no vi hasta ahora pipelines. Solo proyectos libres.
+17:59:23 From Alejandro Avila to Everyone:
+	Replying to "Una pregunta @ROSSAN..."
+	
+	No sé si sea porque son viejos nada más, aunque las versiones de Jenkins en cuestión ya tienen pipelines.
+17:59:52 From Paul Rocha to Everyone:
+	veo que cambio la interface de ECS habrá que actualizarce
+18:00:03 From ROSSANA SUAREZ to Everyone:
+	https://github.com/getsops/sops
+18:03:41 From vero to Everyone:
+	ro entre tarde podria hacer un breve repaso
+18:03:45 From Paul Rocha to Everyone:
+	hay un mínimo de microservicios para el proyecto libre?
+18:03:45 From vero to Everyone:
+	perdon
+18:04:09 From Marco Grijalva to Everyone:
+	Yo tengo una duda, tienes alguna herramienta para que nos facilite la documentación? Los diagramas y así, qué utilizas?
+18:04:19 From Gonzalo Mahserdjian to Everyone:
+	la dockerizacion la subimos a dockerhub o podems usar registries propios?
+18:04:48 From Gonzalo Mahserdjian to Everyone:
+	gracias
+18:05:14 From ROSSANA SUAREZ to Everyone:
+	https://github.com/getsops/sops
+18:05:21 From ROSSANA SUAREZ to Everyone:
+	https://goharbor.io/
+18:06:15 From Cristian Arbelaez to Everyone:
+	Muchas gracias
+18:06:16 From Carlos Rogel Hurtado to Everyone:
+	Replying to "Yo tengo una duda, t..."
+	
+	x2
+18:06:22 From Enrique Cocom Canul to Everyone:
+	Replying to "Yo tengo una duda, t..."
+	
+	x3
+18:06:36 From Gonzalo Mahserdjian to Everyone:
+	fecha de entrega?
+18:06:53 From Eduardo Coronel to Everyone:
+	No sé cómo desafiarme :(
+18:06:54 From Jesús to Everyone:
+	yo llegué tarde hace unos 20 minutos... y no se lo que se quiere... pero me tendré que ver el video de esta clase
+18:06:55 From Fernando Emanuel Lira to Everyone:
+	las dudas empiezan cuando arranquemos el proyecto
+18:06:59 From Felipe González S to Everyone:
+	No entendí nada de lo que tengo que entregar 🥲
+18:07:00 From Vladimir Ramirez to Everyone:
+	las preguntas vendran
+18:07:06 From Carlos Rogel Hurtado to Everyone:
+	en buenas practicas hay alguna lista? uso de secrets, etc.
+18:07:12 From Renzo Franchetto to Everyone:
+	😎
+18:07:12 From Gonzalo Mahserdjian to Everyone:
+	si pero que tiempo hay para la revisión? por los costos de la nube
+18:07:15 From ROSSANA SUAREZ to Everyone:
+	roxs@295devops.com
+18:07:20 From Anibal Castro Ruiz to Everyone:
+	Replying to "No entendí nada de l..."
+	
+	+1
+18:07:45 From Gonzalo Mahserdjian to Everyone:
+	voy a ver si consigo algo en azure para el cluster
+18:07:47 From Carlos Rogel Hurtado to Everyone:
+	Replying to "si pero que tiempo h..."
+	
+	x2
+18:07:51 From Raúl Orozco to Everyone:
+	Replying to "No entendí nada de l..."
+	
+	++
+18:07:57 From Raúl Martínez to Everyone:
+	Reacted to "Yo tengo una duda,..." with 👍
+18:08:07 From Anibal Castro Ruiz to Everyone:
+	Replying to "si pero que tiempo h..."
+	
+	+1
+18:08:08 From Cristian Gaona to Everyone:
+	Talvez alguna herramienta interactiva para crear arquitecturas cloud que conozcan?
+18:08:17 From Joaquín Antuña to Everyone:
+	Reacted to "No entendí nada de l..." with 👍🏻
+18:08:21 From Gonzalo Mahserdjian to Everyone:
+	excelente, gracias Roxs
+18:08:36 From Ana to Everyone:
+	Pueden guardar el chat
+18:08:44 From ROSSANA SUAREZ to Everyone:
+	https://app.diagrams.net/
+18:08:56 From Daniel Chavez to Everyone:
+	hola se que dijieron que sean max 3 pero Podemos ser 4 ?
+18:08:59 From Jani to Everyone:
+	Replying to "Pueden guardar el ch..."
+	
+	Claro que si, lo subimos a la carpeta de la sesión 🙌
+18:09:01 From ROSSANA SUAREZ to Everyone:
+	https://excalidraw.com/
+18:09:05 From Eduardo Coronel to Everyone:
+	Para documentación q podemos usar?
+18:09:13 From Felipe González S to Everyone:
+	add ➕
+18:09:18 From Renzo Franchetto to Everyone:
+	yo cero cloud por ahora Rox, usare minikube...estoy mas pobre que chavo del 8
+18:09:19 From Chris Mher to Everyone:
+	confluence
+18:09:36 From Felipe González S to Everyone:
+	add ➕
+18:09:38 From Carlos Rogel Hurtado to Everyone:
+	tenemos que basar la arquitectura en microservicios? y si, si va a ver clases de microservicios?
+18:09:40 From Johnny III Young Ospino to Everyone:
+	Quedé muy perdido (tantas tecnologías y conceptos) para el proyecto pero a medidas que vayamos viendo las clases espero sentirme mas seguro para realizarlo
+18:09:47 From Alejandro Hierro to Everyone:
+	Se puede hacer individual?
+18:09:47 From ROSSANA SUAREZ to Everyone:
+	https://readme.so/es
+18:09:56 From Leonardo Moya to Everyone:
+	En GH Action, verificamos la seguridad con trivy?
+18:09:57 From Felipe González S to Everyone:
+	add ➕
+18:10:05 From Renzo Franchetto to Everyone:
+	Replying to "Se puede hacer indiv..."
+	
+	ese es mi hermano
+18:10:07 From leslie redlich to Everyone:
+	Reacted to "Quedé muy perdido (t..." with ➕
+18:10:22 From Carlos Andres Ortiz to Everyone:
+	Se ha reaccionado a "Quedé muy perdido..." con ➕
+18:10:24 From Raúl Orozco to Everyone:
+	Replying to "Se puede hacer indiv..."
+	
+	:O , el macho!
+18:10:33 From Alejandro Hierro to Everyone:
+	Reacted to No entendí nada de l... with "👍🏻"
+18:11:02 From Carlos Rogel Hurtado to Everyone:
+	nos pueden dar una lista de open sources y las opciones de cloud?
+18:11:03 From Felipe González S to Everyone:
+	add 😂
+18:11:13 From Andrés Alfaro to Everyone:
+	Reacted to "nos pueden dar una l..." with 👏
+18:11:16 From Paul Rocha to Everyone:
+	Sonaar qube
+18:11:27 From Cristian Gaona to Everyone:
+	Se recomienda hacer el pipeline con gitlab CI/CD?
+18:11:44 From Feli Magno to Everyone:
+	ross una pregunta entonces el objetivo del proyecto cual es? siendo que el codigo ya esta desarrollado?
+18:11:54 From Pablo to Everyone:
+	se podría hacer todo esto sin aws? para probar y demás?
+18:12:27 From ROSSANA SUAREZ to Everyone:
+	https://www.localstack.cloud/
+18:12:32 From Leonardo Moya to Everyone:
+	No hay mas herramientas gratuitas como heroku, para levantar una prueba antes de enviarlo a aws?
+18:12:34 From Felipe González S to Everyone:
+	add 👏
+18:12:46 From Chris Mher to Everyone:
+	Reacted to "ross una pregunta en..." with 👍
+18:12:50 From Leonardo Moya to Everyone:
+	Reacted to "No hay mas herramien..." with 😭
+18:12:52 From Raúl Martínez to Everyone:
+	Reacted to "No hay mas herrami..." with 😭
+18:13:21 From Carlos Rogel Hurtado to Everyone:
+	cuando se habla de monitorear	el rendimiento de la aplicación son las golden signals?
+18:13:30 From Andrés M. Martínez to Everyone:
+	hay que separar la parte de infraestructura como código? o se carga todo en el mismo repositorio de github/gitlab???
+18:13:36 From Renzo Franchetto to Everyone:
+	para que sirve localstack?
+18:14:06 From Renzo Franchetto to Everyone:
+	ahhh
+18:14:37 From Renzo Franchetto to Everyone:
+	pdoria usar maquinas virtuales para hacer los nodos...
+18:14:52 From Eduardo Coronel to Everyone:
+	Roxs aún nos faltan ver clases para crear pipelines? Con aws? Jenkins?
+18:14:53 From Renzo Franchetto to Everyone:
+	tengo una notebook vieja del gobierno tambien jeje
+18:15:03 From Jesús to Everyone:
+	falto la url anterior
+18:15:07 From Enrique Cocom Canul to Everyone:
+	Es un usuario personal o como entras en aws?
+18:15:14 From Paul Rocha to Everyone:
+	Reacted to "tengo una notebook v..." with 😄
+18:15:46 From Carlos Rogel Hurtado to Everyone:
+	cuando se habla de monitorear	el rendimiento de la aplicación son las golden signals?
+18:15:46 From Eduardo Coronel to Everyone:
+	Roxs aún nos faltan ver clases para crear pipelines? Con aws? Jenkins?
+18:16:03 From Leonardo Moya to Everyone:
+	Pensar que se me vencieron 1000 usd de crédito en aws, ya que no llegue a usarlo todo, y no me quisieron extender el vencimiento
+18:16:05 From Paul Rocha to Everyone:
+	cluster de un solo nodo en aws para no gastar de mas jeje
+18:16:18 From Vladimir Ramirez to Everyone:
+	recomiendas Jenkins una vm separada o uno de los control-nodes?
+18:16:21 From Renzo Franchetto to Everyone:
+	no veo la horaq de conocer prometheus y grafana
+18:16:31 From Renzo Franchetto to Everyone:
+	😁
+18:17:07 From Carlos Rogel Hurtado to Everyone:
+	tenemos que basar la arquitectura en microservicios? y si, si va a ver clases de microservicios?
+18:17:11 From Renzo Franchetto to Everyone:
+	namespace = seccion logica?
+18:17:26 From Andrés M. Martínez to Everyone:
+	se puede simular un alto tráfico a tu aplicación y dependiendo de que los recursos están por llegar al limite escalar de forma automática?
+18:18:06 From ROSSANA SUAREZ to Everyone:
+	https://k6.io/
+18:18:06 From Carlos Fernández to Everyone:
+	cual es la primera herramienta?
+18:18:09 From Carlos Rogel Hurtado to Everyone:
+	en CI/CD se espera incluir pruebas unitarias?
+18:18:10 From Renzo Franchetto to Everyone:
+	esas herramientas son free?
+18:18:12 From Manuel Contasti to Everyone:
+	Los link de las herramientas los pueden dejar en el drive?
+18:19:04 From Felipe González S to Everyone:
+	add ➕
+18:19:09 From Carlos Rogel Hurtado to Everyone:
+	Reacted to "Los link de las herr..." with ➕
+18:19:28 From Jesús to Everyone:
+	Se ha reaccionado a "Los link de las he..." con ➕
+18:19:48 From Paul Rocha to Everyone:
+	tras el projecto final se obtiene algún  certificado?
+18:19:53 From Renzo Franchetto to Everyone:
+	eso de test seria para el pipeline?
+18:20:02 From Gonzalo Mahserdjian to Everyone:
+	no, muchas gracias Roxs
+18:20:05 From Carlos Rogel Hurtado to Everyone:
+	hay algún ejemplo que podamos revisar en alguna clase?
+18:21:07 From Felipe González S to Everyone:
+	add ➕
+18:21:07 From Renzo Franchetto to Everyone:
+	@ROSSANA SUAREZ no me quemes jajaj
+18:21:17 From Pablo to Everyone:
+	Reacted to "@ROSSANA SUAREZ no m..." with 😂
+18:21:19 From vero to Everyone:
+	jajajaj
+18:21:22 From Fernando Emanuel Lira to Everyone:
+	se puede encarar alguna implentación de aplicaciones que no estan dockerizadas? tipo oddo, glpi, dolibarr? ese tipo de aplicaciones?
+18:21:23 From Enrique Cocom Canul to Everyone:
+	Reacted to "@ROSSANA SUAREZ no m..." with 😂
+18:21:33 From Jesús to Everyone:
+	comparta otra vez la url del repo
+18:21:38 From ROSSANA SUAREZ to Everyone:
+	https://gitlab.com/training-devops-cf/cf-modulo4-docker
+18:23:02 From Renzo Franchetto to Everyone:
+	jajaj sisi
+18:23:03 From Paul Rocha to Everyone:
+	Reacted to "@ROSSANA SUAREZ no m..." with 😂
+18:23:23 From Johnny III Young Ospino to Everyone:
+	👏🏽
+18:23:30 From Vladimir Ramirez to Everyone:
+	🤣
+18:23:37 From Raúl Orozco to Everyone:
+	😵
+18:23:47 From Paul Rocha to Everyone:
+	Thx Roxs
+18:23:49 From freddy santacruz to Everyone:
+	como la u ajjaa  alas 4 de la ma;ana sale porque sale jajjaja
+18:23:59 From freddy santacruz to Everyone:
+	a las 7 se presenta jjajaja
+18:24:03 From Mavelin Ati to Everyone:
+	Ok, gracias, mucho trabajo !!
+18:24:03 From Felipe González S to Everyone:
+	🥲
+18:24:05 From Cristian Arbelaez to Everyone:
+	👍
+18:24:05 From Andrés M. Martínez to Everyone:
+	consulta. Se que nos has pasado un repo para realizar el cifrado de contraseñas, como ignorarlas para no subir al repo y guardar en algun lugar la clave secreta?
+18:24:32 From Alexis isla to Everyone:
+	Gracias Roxxs
+18:24:36 From Gonzalo Mahserdjian to Everyone:
+	muchas gracias, buenas noches
+18:24:37 From Andrea Zomoza to Everyone:
+	Muy bueno el proyecto final
+18:24:38 From Diego Vidal Caro to Everyone:
+	Gracias
+18:24:38 From Natalia to Everyone:
+	Muchas gracias!!
+18:24:42 From Andrea Zomoza to Everyone:
+	Muchas gracias!
+18:24:44 From Pedro Diaz to Everyone:
+	gracias, buenas noches con todos
+18:24:44 From Carlos Rogel Hurtado to Everyone:
+	Muchas gracias
+18:24:47 From Martín Carrara to Everyone:
+	Gracias, muy bueno!!!!
+18:24:50 From Martín Carrara to Everyone:
+	Saludos!!!
+18:24:51 From leslie redlich to Everyone:
+	gracias bye
+18:24:58 From Andrés Alfaro to Everyone:
+	Gracias, saludos
+18:25:03 From Edison Maza E to Everyone:
+	👨‍🦯
+18:25:11 From Enrique Cocom Canul to Everyone:
+	Muchas gracias 😄
+18:25:18 From Raúl Orozco to Everyone:
+	muchas gracias 😵
+18:25:23 From Ignacio Plaza to Everyone:
+	muchas gracias, saludos
+18:25:31 From Jesús to Everyone:
+	gracias por tod
+18:25:34 From Paul Rocha to Everyone:
+	🥲
+18:25:35 From Cristian Echeverria to Everyone:
+	muchas gracias
+18:26:01 From Pablo König to Everyone:
+	Muchas gracias !!!
+18:26:02 From vero to Everyone:
+	gracias
+18:26:06 From Renzo Franchetto to Everyone:
+	tiempos oscuros
+18:26:07 From Renzo Franchetto to Everyone:
+	jajaj
+18:26:09 From Johnny III Young Ospino to Everyone:
+	👏🏽
+18:26:14 From Diego Vidal Caro to Everyone:
+	25 pensé
+18:26:19 From Eduardo Coronel to Everyone:
+	Roxs no te vayas :(
+18:26:26 From Eduardo Coronel to Everyone:
+	Solo a ti te entiendo
+18:26:29 From Fernando Emanuel Lira to Everyone:
+	Joya! Hasta la próxima!
+18:26:41 From freddy santacruz to Everyone:
+	gracias
+18:26:45 From Mavelin Ati to Everyone:
+	Gracias!!
+18:26:49 From Alexis isla to Everyone:
+	Saludos!
