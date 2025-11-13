@@ -1,0 +1,126 @@
+-- RANGOS
+select * from productos
+where precio between 100 AND 500
+ORDER BY precio;
+
+-- patrones
+
+select * from clientes
+where email LIKE '%gmail.com'
+
+-- nulos
+select * from productos
+where categoria is null;
+
+-- no nulo
+select * from productos
+where categoria is not null;
+
+-- vacio = ''
+select * from productos
+where categoria = '';
+
+-- IN 
+
+SELECT * FROM PRODUCTOS
+WHERE nombre IN ('Teclado', 'Disco Duro Externo', 'prueba');
+
+
+
+select * from productos 
+where categoria = 'Accesorios' AND precio < 100;
+
+
+select * from productos 
+where categoria IN ('Accesorios') AND precio BETWEEN 0 AND 100;
+
+
+
+
+-- ORDENAMIENTO DE DATOS
+-- Nota: si el valor de tu campo es único según el campo 
+-- que estás usando en el order by, tecnicamente "no le afecta"
+-- en cambio si tu campo tiene varios valores iguales, ahi si aplica el segundo 
+-- campo de ordenamiento. Ejemplo:
+
+select * from productos 
+ORDER BY categoria, precio DESC;
+
+
+
+-- ============================
+-- group by
+
+select categoria, COUNT(*) AS TOTAL
+from productos
+GROUP BY categoria;
+
+
+select categoria, SUM(precio) AS TOTAL_PRECIO
+from productos
+GROUP BY categoria;
+
+
+select categoria, AVG(precio) AS PROMEDIO_PRECIO
+from productos
+GROUP BY categoria;
+
+
+select 
+	categoria, 
+    COUNT(*) AS TOTAL_REGISTROS, 
+    SUM(precio) AS SUMA_PRECIO, 
+    AVG(precio) AS PROMEDIO_PRECIO       
+from productos
+GROUP BY categoria
+ORDER BY SUMA_PRECIO DESC;
+
+
+-- where = post select from - columnas existentes en la tabla
+-- having => post group by
+
+-- desafío - reto
+
+select categoria, count(*) as total
+from productos
+group by categoria
+having count(*) > 2
+order by count(*);
+
+
+-- LIMIT
+
+select * 
+from productos
+limit 3 offset 8; 
+
+-- 1. limit 5  =>>> me traerá 5 registros
+-- 2. offset 5 =>>>>empieza de la fila 5
+
+
+
+-- ===================
+
+-- subconsultas
+select * 
+from clientes;
+
+select * from pedidos;
+
+select cliente_id from pedidos;
+
+
+select * 
+from pedidos 
+where cliente_id in (1, 2);
+
+
+select *
+from clientes
+where id in (select cliente_id from pedidos where total_compra > 500);
+
+
+select *
+from productos
+where id not in (select producto_id from pedidos);
+

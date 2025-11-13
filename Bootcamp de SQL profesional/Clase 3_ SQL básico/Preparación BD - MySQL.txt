@@ -1,0 +1,93 @@
+CREATE DATABASE test_db;
+
+USE test_db;
+
+-- Tabla de Clientes
+CREATE TABLE clientes (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL,
+    email VARCHAR(100) UNIQUE,
+    telefono VARCHAR(20)
+);
+
+-- Tabla de Productos
+CREATE TABLE productos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL,
+    precio DECIMAL(10,2) NOT NULL
+);
+
+
+-- Tabla de Pedidos
+CREATE TABLE pedidos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    cliente_id INT,
+    producto_id INT,
+    cantidad INT DEFAULT 1,
+    fecha TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (cliente_id) REFERENCES clientes(id),
+    FOREIGN KEY (producto_id) REFERENCES productos(id)
+);
+
+
+-- Insertar clientes
+INSERT INTO clientes (nombre, email, telefono) VALUES
+('Ana Pérez', 'ana@email.com', '987654321'),
+('Carlos Gómez', 'carlos@email.com', '912345678'),
+('Elena Ríos', 'elena@email.com', '956789123'),
+('Mario López', 'mario@email.com', '900123456'),
+('Laura Sánchez', 'laura@email.com', '923456789'),
+('Ricardo Torres', 'ricardo@email.com', '931234567'),
+('Andrea Castillo', 'andrea@email.com', '945678123'),
+('Pedro Rojas', 'pedro@email.com', '956789231'),
+('Lucía Fernández', 'lucia@email.com', '967892345'),
+('Juan Pérez', 'juan@email.com', '978923456'),
+('Sofía Ramírez', 'sofia@email.com', '989234567'),
+('Daniel Gómez', 'daniel@email.com', '991234678'),
+('Fernanda Díaz', 'fernanda@email.com', '992345678'),
+('Carlos Vela', 'carlosv@email.com', '993456789'),
+('Raúl Jiménez', 'raul@email.com', '994567890');
+
+-- Insertar productos
+INSERT INTO productos (nombre, precio) VALUES
+('Laptop', 1200.50),
+('Mouse', 25.99),
+('Teclado', 45.00),
+('Monitor', 250.99),
+('Impresora', 120.50),
+('Escritorio', 180.00),
+('Silla de Oficina', 90.75),
+('Cargador USB-C', 15.99),
+('Disco Duro Externo', 85.50),
+('Teclado Mecánico', 75.30);
+
+-- Insertar pedidos
+INSERT INTO pedidos (cliente_id, producto_id, cantidad) VALUES
+(1, 1, 1),  -- Ana compró una Laptop
+(2, 2, 2),  -- Carlos compró 2 Mouses
+(3, 3, 1),  -- Elena compró un Teclado
+(4, 2, 1), -- Laura compró una Laptop
+(5, 3, 1), -- Ricardo compró un Mouse
+(6, 5, 2), -- Andrea compró 2 Cargadores USB-C
+(7, 7, 1), -- Pedro compró un Teclado Mecánico
+(8, 9, 3), -- Lucía compró 3 Discos Duros Externos
+(9, 4, 2), -- Juan compró 2 Impresoras
+(10, 1, 1), -- Sofía compró una Laptop
+(11, 8, 4), -- Daniel compró 4 Sillas de Oficina
+(12, 6, 1), -- Fernanda compró un Monitor
+(13, 10, 2), -- Carlos Vela compró 2 Escritorios
+(14, 3, 3), -- Raúl compró 3 Mouses
+(15, 2, 2); -- Carlos Gómez compró 2 Laptops
+
+
+
+SELECT * FROM clientes;
+
+
+SELECT * FROM productos;
+
+
+SELECT pedidos.id, clientes.nombre AS cliente, productos.nombre AS producto, pedidos.cantidad, pedidos.fecha
+FROM pedidos
+JOIN clientes ON pedidos.cliente_id = clientes.id
+JOIN productos ON pedidos.producto_id = productos.id;

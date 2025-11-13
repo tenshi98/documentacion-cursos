@@ -1,0 +1,48 @@
+-- Crear la base de datos si no existe
+DROP DATABASE IF EXISTS control_asistencia;
+CREATE DATABASE control_asistencia;
+USE control_asistencia;
+
+-- Tabla de empleados
+CREATE TABLE empleados (
+    id_empleado INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL
+);
+
+-- Tabla de registros de asistencia
+CREATE TABLE asistencia (
+    id_registro INT AUTO_INCREMENT PRIMARY KEY,
+    id_empleado INT,
+    fecha DATE NOT NULL,
+    hora TIME NOT NULL,
+    tipo ENUM('entrada', 'salida') NOT NULL,
+    FOREIGN KEY (id_empleado) REFERENCES empleados(id_empleado)
+);
+
+-- Insertar empleados
+INSERT INTO empleados (nombre) VALUES
+    ('Ana Pérez'),
+    ('Carlos Gómez'),
+    ('Beatriz Rojas');
+
+-- Insertar registros de asistencia (entrada y salida en diferentes horarios)
+INSERT INTO asistencia (id_empleado, fecha, hora, tipo) VALUES
+    (1, '2024-03-06', '08:00:00', 'entrada'),
+    (1, '2024-03-06', '12:00:00', 'salida'),
+    (1, '2024-03-06', '14:00:00', 'entrada'),
+    (1, '2024-03-06', '18:00:00', 'salida'),
+
+    (2, '2024-03-06', '09:00:00', 'entrada'),
+    (2, '2024-03-06', '13:00:00', 'salida'),
+    (2, '2024-03-06', '14:30:00', 'entrada'),
+    (2, '2024-03-06', '19:00:00', 'salida'),
+
+    (3, '2024-03-06', '07:30:00', 'entrada'),
+    (3, '2024-03-06', '11:30:00', 'salida'),
+    (3, '2024-03-06', '12:30:00', 'entrada'),
+    (3, '2024-03-06', '17:00:00', 'salida');
+
+
+
+
+

@@ -1,0 +1,68 @@
+-- CREACIÓN DE LA BASE DE DATOS
+DROP DATABASE IF EXISTS tienda_db;
+CREATE DATABASE tienda_db;
+USE tienda_db;
+
+-- CREACIÓN DE TABLAS
+
+-- Tabla de Clientes
+CREATE TABLE clientes (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL,
+    email VARCHAR(100) UNIQUE,
+    telefono VARCHAR(20)
+);
+
+-- Tabla de Productos
+CREATE TABLE productos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL,
+    categoria VARCHAR(50),
+    precio DECIMAL(10,2) NOT NULL
+);
+
+-- Tabla de Pedidos
+CREATE TABLE pedidos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    cliente_id INT,
+    producto_id INT,
+    cantidad INT DEFAULT 1,
+    total_compra DECIMAL(10,2),
+    fecha TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (cliente_id) REFERENCES clientes(id),
+    FOREIGN KEY (producto_id) REFERENCES productos(id)
+);
+
+-- INSERCIÓN DE DATOS
+
+-- Insertar clientes
+INSERT INTO clientes (nombre, email, telefono) VALUES
+('Ana Pérez', 'ana@email.com', '987654321'),
+('Carlos Gómez', 'carlos@email.com', '912345678'),
+('Elena Ríos', 'elena@email.com', '956789123');
+
+-- Insertar productos con categorías
+INSERT INTO productos (nombre, categoria, precio) VALUES
+('Laptop', 'Tecnología', 1200.50),
+('Mouse', 'Accesorios', 25.99),
+('Teclado', 'Accesorios', 45.00),
+('Monitor', 'Tecnología', 550.00),
+('Impresora', 'Oficina', 300.00),
+('Escritorio', 'Muebles', 180.00),
+('Silla Ergonómica', 'Muebles', 220.50),
+('Cargador USB-C', 'Accesorios', 15.99),
+('Disco Duro Externo', 'Tecnología', 90.00),
+('Audífonos Bluetooth', 'Accesorios', 150.00);
+
+-- Insertar pedidos con total_compra calculado
+INSERT INTO pedidos (cliente_id, producto_id, cantidad, total_compra) VALUES
+(1, 1, 1, 1200.50), -- Ana compró una Laptop
+(2, 2, 2, 51.98), -- Carlos compró 2 Mouses
+(3, 3, 1, 45.00), -- Elena compró un Teclado
+(1, 4, 1, 550.00), -- Ana compró un Monitor
+(2, 5, 1, 300.00), -- Carlos compró una Impresora
+(3, 6, 1, 180.00), -- Elena compró un Escritorio
+(1, 7, 2, 441.00), -- Ana compró 2 Sillas Ergonómicas
+(2, 8, 1, 15.99), -- Carlos compró un Cargador USB-C
+(3, 9, 3, 270.00), -- Elena compró 3 Discos Duros Externos
+(1, 10, 1, 150.00); -- Ana compró un par de Audífonos Bluetooth
